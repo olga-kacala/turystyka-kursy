@@ -1,11 +1,11 @@
-import classes from "./Header.module.css";
+import classes from "./Home.module.css";
 
 export function Home () {
 
     return (
-        <div>
+        <div className={classes.picContainer}>
      
-          <h1>Home</h1>
+          <img src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.jpg"}/>
        
         </div>
     )

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .topContact {
+    height: 10vh;
+    background-color: rgb(0,99,175);
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0 10px;
+  }

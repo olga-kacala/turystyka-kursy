@@ -1,0 +1,17 @@
+body {
+    background-color:rgb(255,255,255);
+}
+
+.picContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.picContainer img {
+ 
+  width: 78%;
+  height: auto;
+  max-height: 1076px;
+}
