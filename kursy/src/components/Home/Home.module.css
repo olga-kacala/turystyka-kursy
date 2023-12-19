@@ -6,6 +6,7 @@ body {
 }
 
 .picContainer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,20 +15,32 @@ body {
 }
 
 .picContainer img {
-  display: flex;
- align-items: center;
   width: 78%;
   height: auto;
   max-height: 1076px;
 }
 
-.overlay {
+.overlayContainer {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78%;
+}
+
+.overlayContainer :hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.overlay {
   background-color: rgba(255, 255, 255, 0.7);
   color: white;
   text-align: center;
   width: 78%;
+  margin:20px;
 }
+
+
 
 .textOverlay {
   margin: 70px;

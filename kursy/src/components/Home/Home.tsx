@@ -6,11 +6,13 @@ export function Home () {
         <div className={classes.picContainer}>
      
           <img src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.jpg"} alt="Cracow main square"/>
+          <div className={classes.overlayContainer}>
           <div className={classes.overlay}>
             <p className={classes.textOverlay}>Dowiedz się wszystkiego o Krakowie i badź najlepszym przewodnikiem po mieście</p>
           </div>
           <div className={classes.overlay}>
-            <p className={classes.textOverlay}>Dowiedz się wszystkiego o Krakowie i badź najlepszym przewodnikiem po mieście</p>
+            <p className={classes.textOverlay}>Zapisz się na kurs doskonalący język polski</p>
+          </div>
           </div>
         </div>
     )
