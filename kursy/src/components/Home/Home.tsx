@@ -7,7 +7,10 @@ export function Home () {
      
           <img src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.jpg"} alt="Cracow main square"/>
           <div className={classes.overlay}>
-            <p>Your text here</p>
+            <p className={classes.textOverlay}>Dowiedz się wszystkiego o Krakowie i badź najlepszym przewodnikiem po mieście</p>
+          </div>
+          <div className={classes.overlay}>
+            <p className={classes.textOverlay}>Dowiedz się wszystkiego o Krakowie i badź najlepszym przewodnikiem po mieście</p>
           </div>
         </div>
     )
