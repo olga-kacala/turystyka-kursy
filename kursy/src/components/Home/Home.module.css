@@ -11,7 +11,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  
 }
 
 .picContainer img {
@@ -28,8 +27,8 @@ body {
   width: 78%;
 }
 
-.overlayContainer :hover {
-  background-color: rgba(255, 255, 255, 0.9);
+.overlay :hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .overlay {
@@ -37,15 +36,18 @@ body {
   color: white;
   text-align: center;
   width: 78%;
-  margin:20px;
+  margin: 20px;
 }
 
-
-
 .textOverlay {
-  margin: 70px;
-  color:rgb(0,99,175);
-  letter-spacing: 2px ;
+  padding: 70px;
+  color: rgb(0, 99, 175);
+  letter-spacing: 4px;
   font-weight: bolder;
-  font-size: large;
+  font-size: 25px;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
 }

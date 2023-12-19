@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
 .header {
     display: flex;
     flex-direction: column;
@@ -22,9 +25,12 @@
 
   .logo {
     margin-right: 20vw;
-    font-weight: bold;
     color: white;
     text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+
+    
   }
 
   .link {
