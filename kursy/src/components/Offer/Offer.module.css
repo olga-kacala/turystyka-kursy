@@ -1,0 +1,22 @@
+.carousel {
+  position: relative;
+  width: 78%;
+}
+
+.carouselInner {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  display: none;
+  position: absolute;
+  width: 50%;
+  max-height: 1076px;
+  align-items: center;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
