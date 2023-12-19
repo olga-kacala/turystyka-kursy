@@ -1,23 +1,42 @@
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding-bottom: 20px;
     height: auto;
   }
 
   .topContact {
-    height: 10vh;
+    height: 3vh;
     background-color: rgb(0,99,175);
   }
 
-  .link {
+  .nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 7vh;
+    margin-left: 10vw;
+  }
+
+  .logo {
+    margin-right: 20vw;
+    font-weight: bold;
     color: white;
     text-decoration: none;
   }
 
+  .link {
+
+    color: rgb(236,238,239);
+    text-decoration: none;
+  }
+
+  .link:hover {
+    color:  rgb(0,99,175);
+  }
+
   p {
-    margin: 0 10px;
+    margin: 10px 20px;
   }
