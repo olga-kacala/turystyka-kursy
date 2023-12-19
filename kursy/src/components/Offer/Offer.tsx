@@ -5,7 +5,7 @@ export function Offer() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const nextSlide = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % 4); 
+    setActiveIndex((prevIndex) => (prevIndex + 1) % 4);
   };
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export function Offer() {
   return (
     <div id="carouselExample" className={classes.carousel} data-ride="carousel">
       <div className={classes.carouselInner}>
-        {[1, 2, 3,4].map((index) => (
+        {[1, 2, 3, 4].map((index) => (
           <div
             key={index}
             className={`${classes["carousel-item"]} ${

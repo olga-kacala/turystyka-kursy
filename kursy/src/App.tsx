@@ -1,9 +1,9 @@
-import './App.css';
+import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
-import {Offer } from "./components/Offer/Offer";
-import {Contact } from "./components/Contact/Contact";
+import { Offer } from "./components/Offer/Offer";
+import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
@@ -20,4 +20,3 @@ function App() {
   );
 }
 export default App;
-
