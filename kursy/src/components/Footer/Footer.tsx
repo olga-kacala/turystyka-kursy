@@ -3,9 +3,9 @@ import classes from "./Footer.module.css";
 export function Footer() {
   return (
     <footer className={classes.footer}>
-      <p>All rights reserved.</p>
+      <p>&copy; 2023 Krzykalski-kursy. Wszelkie prawa zastrzeżone.</p>
       <div className={classes.logos}>
-        <p>Created by:</p>
+        <p>Autor:</p>
         <a href="https://www.linkedin.com/in/olga-kacala/" target="_blank">
           <img
             className={classes.Lin}

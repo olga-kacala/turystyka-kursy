@@ -1,6 +1,10 @@
+.offerContainer {
+  display: flex;
+}
+
 .carousel {
-  position: relative;
-  width: 78%;
+  flex: 1;
+  max-width: 50%;
 }
 
 .carouselInner {
@@ -11,11 +15,17 @@
 .carousel-item {
   display: none;
   position: absolute;
-  width: 50%;
+  width: 100%;
   max-height: 1076px;
   align-items: center;
 }
 
 .carousel-item.active {
   display: block;
+}
+
+.offerText {
+  flex: 1;
+  padding: 100px; 
+  font-size: 20px;
 }

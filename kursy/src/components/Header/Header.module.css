@@ -33,6 +33,7 @@
 .link {
   color: rgb(236, 238, 239);
   text-decoration: none !important;
+  font-weight: bold;
 }
 
 .link:hover {
