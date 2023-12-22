@@ -7,7 +7,8 @@
   background-size: cover;
   background-position: center;
   color: white;
-  height: 81vh;
+  height: 80vh;
+  width: 100vw;
 }
 
 .contactSection {
@@ -15,6 +16,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .contactBox {

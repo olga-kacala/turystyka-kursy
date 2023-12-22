@@ -20,6 +20,22 @@
   align-items: center;
   height: 7vh;
   margin-left: 10vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navActive {
+  transform: translateX(0);
+}
+
+.navInactive {
+  transform: translateX(-50%);
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .logo {
@@ -45,17 +61,29 @@ p {
 }
 
 @media (max-width: 375px) {
- .header{
-  width: 100vw;
-  flex-direction: column;
- }
+  .header {
+    height: auto;
+  }
+  .nav {
+    flex-direction: column;
+    justify-content: flex-end; /* Align items to the bottom (right) */
+    align-items: center;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: right;
+  }
 
- .nav {
-  max-width: 100vw;
- }
+  p {
+    font-size: small;
+  }
 
- .topContact {
-  flex-direction: column;
- }
-  
+  .topContact {
+    height: auto;
+  }
+
+  .logo {
+    justify-content: center;
+    margin: 0;
+  }
 }
