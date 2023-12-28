@@ -70,6 +70,8 @@ body {
   .picContainer {
     position: absolute;
     background-color: rgb(231, 236, 239);
+    height: 72vh;
+    align-items: center;
   }
 
   .picContainer img {
