@@ -25,14 +25,13 @@
 @media (max-width: 375px) {
   .footer {
     width: 100vw;
-    height:12vh;
+    height: 12vh;
     flex-direction: column;
     font-size: small;
-    padding:0;
+    padding: 0;
   }
 
   .footer img {
     height: 15px;
-    
   }
 }

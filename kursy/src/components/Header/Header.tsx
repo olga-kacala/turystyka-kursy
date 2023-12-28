@@ -11,7 +11,8 @@ export function Header() {
   };
 
   const closeMenu = () => {
-    setMenuOpen(false)}
+    setMenuOpen(false);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,42 +36,60 @@ export function Header() {
         <div className={classes.topContact}>
           <p>T: +48 693-739-517 | E: k.krzykalski47@gmail.com</p>
         </div>
-        
+
         {isMobile && (
-          
-          <div className={`${classes.nav} ${isMenuOpen ? classes.navActive : classes.navInactive}`}>
-  <div className={classes.logoContainer}>
-    <Link className={classes.logo} to="*" key="logo">
-      <div onClick={closeMenu}>KRZYKALSKI - KURSY</div>
-    </Link>
-  </div>
-  <div className={classes.hamburger} onClick={handleMenuToggle}>
-    &#9776;
-  </div>
-  {isMenuOpen && (
-    <React.Fragment>
-      <Link className={classes.link} to="Offer" key="offer1" onClick={closeMenu}>
-        <p>Kurs dla przewodników turystycznych</p>
-      </Link>
-      <Link className={classes.link} to="Offer" key="offer2" onClick={closeMenu}>
-        <p>Kursy językowe</p>
-      </Link>
-      <Link className={classes.link} to="Contact" key="contact" onClick={closeMenu}>
-        <p>Kontakt</p>
-      </Link>
-    </React.Fragment>
-  )}
-</div>
+          <div
+            className={`${classes.nav} ${
+              isMenuOpen ? classes.navActive : classes.navInactive
+            }`}
+          >
+            <div className={classes.logoContainer}>
+              <Link className={classes.logo} to="*" key="logo">
+                <div onClick={closeMenu}>KRZYKALSKI - KURSY</div>
+              </Link>
+            </div>
+            <div className={classes.hamburger} onClick={handleMenuToggle}>
+              &#9776;
+            </div>
+            {isMenuOpen && (
+              <React.Fragment>
+                <Link
+                  className={classes.link}
+                  to="Tour"
+                  key="offer1"
+                  onClick={closeMenu}
+                >
+                  <p>Kurs dla przewodników turystycznych</p>
+                </Link>
+                <Link
+                  className={classes.link}
+                  to="Language"
+                  key="offer2"
+                  onClick={closeMenu}
+                >
+                  <p>Kursy językowe</p>
+                </Link>
+                <Link
+                  className={classes.link}
+                  to="Contact"
+                  key="contact"
+                  onClick={closeMenu}
+                >
+                  <p>Kontakt</p>
+                </Link>
+              </React.Fragment>
+            )}
+          </div>
         )}
         {!isMobile && (
           <div className={classes.nav}>
             <Link className={classes.logo} to="*" key="logo">
               <div onClick={closeMenu}>KRZYKALSKI - KURSY</div>
             </Link>
-            <Link className={classes.link} to="Offer" key="offer1">
+            <Link className={classes.link} to="Tour" key="offer1">
               <p>Kurs dla przewodników turystycznych</p>
             </Link>
-            <Link className={classes.link} to="Offer" key="offer2">
+            <Link className={classes.link} to="Language" key="offer2">
               <p>Kursy językowe</p>
             </Link>
             <Link className={classes.link} to="Contact" key="contact">

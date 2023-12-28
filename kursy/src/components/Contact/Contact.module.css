@@ -35,10 +35,10 @@
   background-color: rgba(255, 255, 255, 0.8);
   opacity: 1;
   color: rgb(0, 99, 175);
-  transition:1s;
+  transition: 1s;
 }
 
 .contactHeader {
-    margin-bottom: 60px;
-    align-items: start;
+  margin-bottom: 60px;
+  align-items: start;
 }

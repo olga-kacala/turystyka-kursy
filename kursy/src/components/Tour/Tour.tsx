@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
-import classes from "./Offer.module.css";
+import classes from "./Tour.module.css";
 
-export function Offer() {
+export function Tour() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const nextSlide = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % 4);
+    setActiveIndex((prevIndex) => (prevIndex + 1) % 3);
   };
 
   useEffect(() => {
-    const intervalId = setInterval(nextSlide, 5000);
+    const intervalId = setInterval(nextSlide, 7000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -17,12 +17,11 @@ export function Offer() {
   return (
     <div className={classes.offerContainer}>
       <div
-        id="carouselExample"
         className={classes.carousel}
         data-ride="carousel"
       >
         <div className={classes.carouselInner}>
-          {[1, 2, 3, 4].map((index) => (
+          {[1, 2, 3].map((index) => (
             <div
               key={index}
               className={`${classes["carousel-item"]} ${

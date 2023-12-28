@@ -61,15 +61,13 @@ p {
 }
 
 @media (max-width: 375px) {
-
   .header {
-    height:auto;
+    height: auto;
     margin: 0;
   }
 
   .nav {
     display: contents;
-    
   }
 
   .hamburger {
@@ -86,7 +84,7 @@ p {
     height: 5vh;
   }
 
-  p{
+  p {
     font-size: small;
   }
 }
