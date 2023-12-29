@@ -7,7 +7,7 @@ export function Language() {
         <img
           className={classes.image}
           src={"../../Img/annika-gordon-cZISY8ai2iA-unsplash.jpg"}
-          alt="learning language"
+          alt="People learning a new language"
         />
         <div className={classes.offerText}>
           Odkryj fascynujący świat języków obcych, zgłębiając tajniki
@@ -17,22 +17,22 @@ export function Language() {
         </div>
       </div>
 
-      <div className={classes.languageOffer}>
-        <div className={classes.GER}>
+      <section className={classes.languageOffer}>
+        <article className={classes.GER}>
           <div className={classes.marqueeText}>
             Unser Fortgeschrittenenkurs bietet eine einzigartige Gelegenheit,
             Ihre Deutschkenntnisse zu perfektionieren und in die Feinheiten der
             Sprache einzutauchen
           </div>
-        </div>
-        <div className={classes.RUS}>
+        </article>
+        <article className={classes.RUS}>
           <div className={classes.marqueeText}>
             Наш продвинутый курс предоставляет уникальную возможность
             совершенствовать знания русского языка, погружаясь в его тонкости и
             нюансы
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </div>
   );
 }
