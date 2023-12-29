@@ -6,7 +6,7 @@ export function Footer() {
       <div>&copy; 2023 Krzykalski-kursy. Wszelkie prawa zastrzeżone.</div>
       <div className={classes.logos}>
         <div>Projekt i wykonanie:</div>
-        <a href="https://www.linkedin.com/in/olga-kacala/" target="_blank">
+        <a href="https://www.linkedin.com/in/olga-kacala/" target="_blank" rel="noopener noreferrer">
           <img
             className={classes.Lin}
             title="My LinkedIn"

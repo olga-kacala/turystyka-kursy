@@ -20,7 +20,7 @@ export function Home() {
         <div className={classes.overlay}>
           <Link className={classes.link} to="Language">
             <p className={classes.textOverlay}>
-              Zapisz się na kurs doskonalący język polski
+              Zapisz się na kurs doskonalący język
             </p>
           </Link>
         </div>
