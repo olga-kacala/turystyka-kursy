@@ -26,7 +26,7 @@ export function Tour() {
               }`}
             >
               <img
-                className="d-block w-100"
+                className="dBlockw100"
                 src={`../../Img/image${index}.jpg`}
                 alt={`Slide ${index}`}
               />
