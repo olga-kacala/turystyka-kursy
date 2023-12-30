@@ -65,3 +65,33 @@ body {
     transform: translateX(-100%);
   }
 }
+
+@media (max-width: 375px) {
+  .titleContainer {
+    flex-direction: column;
+  }
+
+  .offerText {
+    padding: 3vw;
+    font-size: smaller;
+  }
+
+  .image {
+    height: 30vh;
+  }
+
+  .GER,
+  .RUS {
+    margin: 0;
+    margin-bottom: 1vh;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
