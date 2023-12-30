@@ -95,3 +95,38 @@ body {
     }
   }
 }
+
+@media (min-width: 376px) and (max-width: 750px) {
+  .offerContainer {
+    margin-bottom: 19vh;
+  }
+
+  .titleContainer {
+    flex-direction: row;
+  }
+
+  .offerText {
+    padding: 3vw;
+    font-size: smaller;
+    width: 50vw;
+  }
+
+  .image {
+    width: 50vw;
+  }
+
+  .GER,
+  .RUS {
+    margin: 0;
+    margin-bottom: 1vh;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
