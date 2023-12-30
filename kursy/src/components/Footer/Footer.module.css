@@ -36,3 +36,19 @@
     height: 15px;
   }
 }
+
+@media (min-width: 376px) and (max-width: 750px) {
+  .footer {
+    width: 100vw;
+    height: 19vh;
+    flex-direction: column;
+    font-size: small;
+    padding: 0;
+    z-index: 3;
+  }
+
+  .footer img {
+    height: 15px;
+  }
+
+}

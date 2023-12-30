@@ -78,3 +78,29 @@ body {
     height: auto;
   }
 }
+
+@media (min-width: 376px) and (max-width: 750px) {
+  .picContainer {
+    height: 60vh;
+  }
+
+  .picContainer img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    z-index: -1;
+  }
+  
+  .overlayContainer {
+    width: 100vw;
+  }
+
+  .overlay {
+    width: 100%;
+  }
+
+  .textOverlay {
+    padding: 2px;
+    font-size: medium;
+  }
+}

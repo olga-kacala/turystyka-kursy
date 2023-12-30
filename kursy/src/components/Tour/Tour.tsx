@@ -44,10 +44,9 @@ export function Tour() {
         <article>
           Podczas kursu będziesz miał/a okazję zgłębić historię Krakowa, odkryć
           ukryte perły tej malowniczej miejscowości oraz nauczyć się skutecznych
-          technik oprowadzania grupą turystyczną. Wspólnie z ekspertami z branży
-          turystycznej będziemy eksplorować nie tylko znane atrakcje, ale także
-          tajemnicze zakątki, które z pewnością zaskoczą nawet doświadczonych
-          przewodników.
+          technik oprowadzania grupą turystyczną. Wspólnie będziemy eksplorować
+          nie tylko znane atrakcje, ale także tajemnicze zakątki, które z
+          pewnością zaskoczą nawet doświadczonych przewodników.
         </article>
 
         <article>
