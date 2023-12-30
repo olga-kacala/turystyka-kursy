@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05a69914.css",
+    "main.js": "/static/js/main.8b99d588.js",
+    "static/media/pavan-trikutam-71CjSSB83Wo-unsplash.webp": "/static/media/pavan-trikutam-71CjSSB83Wo-unsplash.b6e8556f2a58962cff2f.webp",
+    "index.html": "/index.html",
+    "main.05a69914.css.map": "/static/css/main.05a69914.css.map",
+    "main.8b99d588.js.map": "/static/js/main.8b99d588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a69914.css",
+    "static/js/main.8b99d588.js"
+  ]
+}
