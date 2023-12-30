@@ -5,7 +5,7 @@ export function Home() {
   return (
     <div className={classes.picContainer}>
       <img
-        src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.jpg"}
+        src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.webp"}
         alt="Cracow main square"
       />
       <div className={classes.overlayContainer}>

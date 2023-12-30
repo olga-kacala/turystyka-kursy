@@ -27,7 +27,7 @@ export function Tour() {
             >
               <img
                 className="dBlockw100"
-                src={`../../Img/image${index}.jpg`}
+                src={`../../Img/image${index}.webp`}
                 alt={`Slide ${index}`}
               />
             </div>

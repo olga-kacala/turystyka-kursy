@@ -11,7 +11,7 @@ export function Footer() {
             className={classes.Lin}
             title="My LinkedIn"
             alt="LinkedIn"
-            src={"../../Img/LI-logo.png"}
+            src={"../../Img/LI-logo.webp"}
           />
         </a>
       </div>
