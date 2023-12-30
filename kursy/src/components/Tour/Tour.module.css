@@ -83,3 +83,42 @@ article {
     z-index: 0;
   }
 }
+
+@media (min-width: 376px) and (max-width: 750px) {
+  .offerContainer {
+    z-index: 0;
+    position: relative;
+  }
+
+  .offerText {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 19vh;
+    z-index: 2;
+    padding: 0;
+  }
+
+  .carousel {
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .offerText p {
+    width: 100vw;
+    margin: 0;
+    padding: 9px;
+    font-weight: bold;
+  }
+
+  article {
+    margin: 3vw;
+    text-align: center;
+    font-size: small;
+  }
+
+  img {
+    z-index: 0;
+    height: 100vh;
+  }
+}
