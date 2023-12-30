@@ -48,12 +48,10 @@ article {
 
 @media (max-width: 375px) {
   .offerContainer {
-    flex-direction: column;
-    background-color: #333;
     z-index: 0;
     position: relative;
   }
-  
+
   .offerText {
     display: flex;
     flex-direction: column;
@@ -61,13 +59,11 @@ article {
     margin-bottom: 12vh;
     z-index: 2;
     padding: 0;
-    color: white;
-    justify-content: center;
   }
-
 
   .carousel {
     width: 100vw;
+    z-index: 1;
   }
 
   .offerText p {
@@ -80,5 +76,10 @@ article {
   article {
     margin: 3vw;
     text-align: center;
+    font-size: small;
+  }
+
+  img {
+    z-index: 0;
   }
 }
