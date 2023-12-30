@@ -41,3 +41,25 @@
 .contactHeader {
   margin-bottom: 5vh;
 }
+
+
+@media (max-width: 375px) {
+  .contactBox {
+    width: auto;
+    height: auto;
+    padding: 2vw;
+    margin: 0 0 3vh 0;
+  }
+
+  .contactSection {
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 12vh;
+  }
+
+  .contactContainer {
+    margin: 0;
+    /* margin-bottom: 12vh; */
+  }
+}
+  
