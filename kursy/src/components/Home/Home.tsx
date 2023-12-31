@@ -4,10 +4,16 @@ import { Link } from "react-router-dom";
 export function Home() {
   return (
     <div className={classes.picContainer}>
-      <img
-        src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.webp"}
+
+<img
+        src={process.env.PUBLIC_URL + "/Img/lucas-albuquerque-i-p1zqFros8-unsplash.webp"}
         alt="Cracow main square"
       />
+
+      {/* <img
+        src={"../../Img/lucas-albuquerque-i-p1zqFros8-unsplash.webp"}
+        alt="Cracow main square"
+      /> */}
       <div className={classes.overlayContainer}>
         <div className={classes.overlay}>
           <Link className={classes.link} to="Tour">
