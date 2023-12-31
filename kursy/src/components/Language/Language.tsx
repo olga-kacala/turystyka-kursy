@@ -6,7 +6,10 @@ export function Language() {
       <div className={classes.titleContainer}>
         <img
           className={classes.image}
-          src={"../../Img/annika-gordon-cZISY8ai2iA-unsplash.webp"}
+          src={
+            process.env.PUBLIC_URL +
+            "/Img/annika-gordon-cZISY8ai2iA-unsplash.webp"
+          }
           alt="People learning a new language"
         />
         <div className={classes.offerText}>
