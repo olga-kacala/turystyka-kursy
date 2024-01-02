@@ -35,7 +35,7 @@ body {
   display: flex;
   height: 10vh;
   margin: 15px 0;
-  background-color: rgb(113, 230, 163);
+  background-color: rgb(127, 186, 208);
   font-size: 1.3rem;
   justify-content: flex-start;
   align-items: center;
@@ -47,7 +47,7 @@ body {
 
 .marqueeText {
   white-space: nowrap;
-  animation: marquee 20s linear infinite;
+  animation: marquee 25s linear infinite;
 }
 
 .GER:hover,
