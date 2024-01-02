@@ -34,7 +34,6 @@ body {
 
 .overlay {
   background-color: rgba(255, 255, 255, 0.8);
-  color: white;
   text-align: center;
   width: 78%;
   margin: 20px;
@@ -42,11 +41,12 @@ body {
 
 .textOverlay {
   padding: 70px;
-  color: rgb(0, 99, 175);
+  color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
   font-weight: bolder;
   font-size: 25px;
   margin: 0;
+  background-color: transparent;
 }
 
 .link {
