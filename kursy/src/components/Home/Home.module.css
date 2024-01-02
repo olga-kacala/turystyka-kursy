@@ -28,7 +28,7 @@ body {
   width: 78%;
 }
 
-.overlay :hover {
+.textOverlay:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -51,6 +51,11 @@ body {
 
 .link {
   text-decoration: none !important;
+  color: rgb(0, 99, 175) !important;
+}
+
+.link:hover{
+  color: rgb(0, 99, 175) !important;
 }
 
 @media (max-width: 375px) {
@@ -63,7 +68,7 @@ body {
     width: 100vw;
   }
 
-  .overlay :hover {
+  .textOverlay:hover {
     background-color: rgba(255, 255, 255, 0.8);
   }
 
@@ -74,7 +79,7 @@ body {
   }
 
   .picContainer img {
-    width: 100vw;
+    width: 100%;
     height: auto;
   }
 }
