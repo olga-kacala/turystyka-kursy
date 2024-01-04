@@ -5,6 +5,7 @@ body {
 .offerContainer {
   display: flex;
   flex-direction: column;
+  height: 74vh;
 }
 
 .titleContainer {
@@ -13,7 +14,7 @@ body {
 }
 
 .image {
-  height: 50vh;
+  height: 45vh;
 }
 
 .offerText {

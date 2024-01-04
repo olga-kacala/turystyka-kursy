@@ -1,5 +1,6 @@
 .offerContainer {
   display: flex;
+  height: 74vh;
 }
 
 .carousel {
@@ -27,9 +28,10 @@
   text-align: left;
   font-size: 20px;
   overflow-y: auto;
-  height: 80vh;
+  height: 74vh;
   margin-right: 5vw;
-  margin-top: 5vh;
+  padding-top: 5vh;
+  margin-bottom: 10vh;
 }
 
 .offerText p {
@@ -37,7 +39,7 @@
 }
 
 img {
-  height: 80vh;
+  height: 74vh;
   position: sticky;
   top: 0;
 }
