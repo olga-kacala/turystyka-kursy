@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/turystyka-kursy/static/css/main.09ba3f4a.css",
+    "main.css": "/turystyka-kursy/static/css/main.fb253f62.css",
     "main.js": "/turystyka-kursy/static/js/main.9110085b.js",
     "static/media/pavan-trikutam-71CjSSB83Wo-unsplash.webp": "/turystyka-kursy/static/media/pavan-trikutam-71CjSSB83Wo-unsplash.b6e8556f2a58962cff2f.webp",
     "index.html": "/turystyka-kursy/index.html",
-    "main.09ba3f4a.css.map": "/turystyka-kursy/static/css/main.09ba3f4a.css.map",
+    "main.fb253f62.css.map": "/turystyka-kursy/static/css/main.fb253f62.css.map",
     "main.9110085b.js.map": "/turystyka-kursy/static/js/main.9110085b.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ba3f4a.css",
+    "static/css/main.fb253f62.css",
     "static/js/main.9110085b.js"
   ]
 }
