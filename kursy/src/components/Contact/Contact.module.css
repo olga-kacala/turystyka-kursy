@@ -32,9 +32,9 @@
 }
 
 .contactBox:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8)!important;
   opacity: 1;
-  color: rgb(0, 99, 175);
+  color: rgb(0, 99, 175)!important;
   transition: background-color 0.3s, opacity 0.3s, color 0.3s;
 }
 
