@@ -45,7 +45,7 @@ body {
   color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: larger;
   margin: 0;
   background-color: transparent;
 }
@@ -75,7 +75,7 @@ body {
 
   .picContainer {
     position: absolute;
-    background-color: rgb(231, 236, 239);
+    /* background-color: rgb(231, 236, 239); */
     align-items: center;
   }
 
@@ -87,7 +87,7 @@ body {
 
 @media (min-width: 376px) and (max-width: 750px) {
   .picContainer {
-    height: 60vh;
+    height: auto;
   }
 
   .picContainer img {
