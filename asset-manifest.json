@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/turystyka-kursy/static/css/main.f94c7e51.css",
+    "main.css": "/turystyka-kursy/static/css/main.f11268df.css",
     "main.js": "/turystyka-kursy/static/js/main.407bf626.js",
     "static/media/pavan-trikutam-71CjSSB83Wo-unsplash.webp": "/turystyka-kursy/static/media/pavan-trikutam-71CjSSB83Wo-unsplash.b6e8556f2a58962cff2f.webp",
     "static/media/annika-gordon-cZISY8ai2iA-unsplash.webp": "/turystyka-kursy/static/media/annika-gordon-cZISY8ai2iA-unsplash.713550d7e1bba2db4e4a.webp",
     "index.html": "/turystyka-kursy/index.html",
-    "main.f94c7e51.css.map": "/turystyka-kursy/static/css/main.f94c7e51.css.map",
+    "main.f11268df.css.map": "/turystyka-kursy/static/css/main.f11268df.css.map",
     "main.407bf626.js.map": "/turystyka-kursy/static/js/main.407bf626.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94c7e51.css",
+    "static/css/main.f11268df.css",
     "static/js/main.407bf626.js"
   ]
 }
