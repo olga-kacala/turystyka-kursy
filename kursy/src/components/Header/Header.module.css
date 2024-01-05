@@ -47,7 +47,8 @@
 }
 
 .logo {
-  margin-right: 20vw;
+  width: 30vw;
+  margin-right: 10vw;
   color: white !important;
   text-decoration: none !important;
   font-family: "Cormorant", serif;
@@ -104,7 +105,7 @@ p {
   }
 }
 
-@media (min-width: 376px) and (max-width: 750px) {
+@media (min-width: 376px) and (max-width: 821px) {
   .header {
     height: auto;
     margin: 0;

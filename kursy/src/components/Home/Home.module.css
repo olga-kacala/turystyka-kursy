@@ -36,7 +36,7 @@ body {
 .overlay {
   background-color: rgba(255, 255, 255, 0.8)!important;
   text-align: center;
-  width: 78%;
+  width: 50vw;
   margin: 20px;
 }
 
@@ -60,6 +60,10 @@ body {
 }
 
 @media (max-width: 375px) {
+  .overlay {
+    width: 100vw;
+  }
+
   .textOverlay {
     padding: 2px;
     font-size: medium;
@@ -75,7 +79,6 @@ body {
 
   .picContainer {
     position: absolute;
-    /* background-color: rgb(231, 236, 239); */
     align-items: center;
   }
 
@@ -85,7 +88,7 @@ body {
   }
 }
 
-@media (min-width: 376px) and (max-width: 750px) {
+@media (min-width: 376px) and (max-width: 821px) {
   .picContainer {
     height: auto;
   }
@@ -102,9 +105,9 @@ body {
   }
 
   .overlay {
-    width: 100%;
+      width: 100vw;
   }
-
+  
   .textOverlay {
     padding: 2px;
     font-size: medium;

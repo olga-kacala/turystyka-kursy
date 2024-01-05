@@ -59,10 +59,12 @@ article {
     display: flex;
     flex-direction: column;
     margin: 0;
-    margin-bottom: 12vh;
+    /* margin-bottom: 12vh; */
+    margin-bottom: 3vh;
     z-index: 2;
     padding: 0;
-    height: 72vh;
+    /* height: 72vh; */
+    height: auto;
   }
 
   .carousel {
@@ -88,7 +90,7 @@ article {
   }
 }
 
-@media (min-width: 376px) and (max-width: 750px) {
+@media (min-width: 376px) and (max-width: 821px) {
   .offerContainer {
     z-index: 0;
     position: relative;

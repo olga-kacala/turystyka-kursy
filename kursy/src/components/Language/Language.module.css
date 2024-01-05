@@ -15,12 +15,14 @@ body {
 
 .image {
   height: 45vh;
+  width: auto;
 }
 
 .offerText {
   display: flex;
-  padding: 100px;
+  padding: 3vw;
   font-size: 20px;
+  width: auto;
   align-items: center;
   text-align: center;
 }
@@ -68,6 +70,11 @@ body {
 }
 
 @media (max-width: 375px) {
+
+  .offerContainer {
+    margin-bottom: 19vh;
+    height: auto;
+  }
   .titleContainer {
     flex-direction: column;
   }
@@ -75,10 +82,12 @@ body {
   .offerText {
     padding: 3vw;
     font-size: smaller;
+    width: 100vw;
   }
 
   .image {
     height: 30vh;
+    width: auto;
   }
 
   .GER,
@@ -97,13 +106,11 @@ body {
   }
 }
 
-@media (min-width: 376px) and (max-width: 750px) {
+@media (min-width: 376px) and (max-width: 821px) {
+  
   .offerContainer {
     margin-bottom: 19vh;
-  }
-
-  .titleContainer {
-    flex-direction: row;
+    height: auto;
   }
 
   .offerText {
@@ -114,6 +121,7 @@ body {
 
   .image {
     width: 50vw;
+    height: auto;
   }
 
   .GER,
