@@ -75,7 +75,6 @@ body {
 @media (max-width: 450px) {
   .offerContainer {
     margin-bottom: 12vh;
-    height: auto;
   }
 
   .titleContainer {
