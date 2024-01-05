@@ -4,14 +4,7 @@ export function Language() {
   return (
     <div className={classes.offerContainer}>
       <div className={classes.titleContainer}>
-        <img
-          className={classes.image}
-          src={
-            process.env.PUBLIC_URL +
-            "/Img/annika-gordon-cZISY8ai2iA-unsplash.webp"
-          }
-          alt="People learning a new language"
-        />
+       
         <div className={classes.offerText}>
           Odkryj fascynujący świat języków obcych, zgłębiając tajniki
           rosyjskiego i niemieckiego w naszym kursie doskonalącym. Rozwijaj

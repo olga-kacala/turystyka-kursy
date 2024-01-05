@@ -26,12 +26,16 @@
 .offerText {
   flex: 1;
   text-align: left;
-  font-size: 20px;
+  /* font-size: 20px; */
   overflow-y: auto;
   height: 74vh;
   margin-right: 5vw;
   padding-top: 5vh;
   margin-bottom: 10vh;
+  color: rgb(0, 99, 175) !important;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .offerText p {

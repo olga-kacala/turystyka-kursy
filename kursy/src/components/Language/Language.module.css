@@ -6,6 +6,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 74vh;
+  background-image: url("../../../public/Img/annika-gordon-cZISY8ai2iA-unsplash.webp");
+  background-size: cover;
+  background-position: center;
 }
 
 .titleContainer {
@@ -13,19 +16,18 @@ body {
   flex-direction: row;
 }
 
-.image {
-  height: 45vh;
-  width: auto;
-  max-width: 70vw;
-}
-
 .offerText {
   display: flex;
-  padding: 3vw;
-  font-size: 20px;
-  width: auto;
   align-items: center;
   text-align: center;
+  padding: 8vw;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 6vh 0;
+  color: rgb(0, 99, 175) !important;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .languageOffer {
@@ -72,22 +74,20 @@ body {
 
 @media (max-width: 450px) {
   .offerContainer {
-    margin-bottom: 19vh;
+    margin-bottom: 12vh;
     height: auto;
   }
+
   .titleContainer {
     flex-direction: column;
   }
 
   .offerText {
-    padding: 3vw;
+    padding: 5vw;
     font-size: smaller;
     width: 100vw;
-  }
-
-  .image {
-    height: 30vh;
-    width: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 6vh;
   }
 
   .GER,
@@ -115,12 +115,7 @@ body {
   .offerText {
     padding: 3vw;
     font-size: smaller;
-    width: 50vw;
-  }
-
-  .image {
-    width: 50vw;
-    height: auto;
+    width: 100vw;
   }
 
   .GER,

@@ -39,7 +39,20 @@
 }
 
 .contactHeader {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 5vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80vw;
+  justify-content: center;
+  color: rgb(0, 99, 175) !important;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
 }
 
 @media (max-width: 450px) {
@@ -59,6 +72,10 @@
 
   .contactContainer {
     margin: 0;
+  }
+
+  .contactHeader {
+    width: 100vw;
   }
 }
 
@@ -80,5 +97,9 @@
   .contactContainer {
     margin: 0;
     height: auto;
+  }
+
+  .contactHeader {
+    width: 100vw;
   }
 }

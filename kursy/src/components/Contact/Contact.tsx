@@ -5,8 +5,8 @@ export function Contact() {
     <div>
       <div className={classes.contactContainer}>
         <div className={classes.contactHeader}>
-          <h1>Masz pytania?</h1>
-          <h2>Z chęcią odpowiem</h2>
+          <p>Masz pytania?</p>
+          <p>Z chęcią odpowiem</p>
         </div>
         <section className={classes.contactSection}>
           <p className={classes.contactBox}>
