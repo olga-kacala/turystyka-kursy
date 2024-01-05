@@ -49,7 +49,7 @@ article {
   margin: 2vw;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .offerContainer {
     z-index: 0;
     position: relative;
@@ -59,11 +59,9 @@ article {
     display: flex;
     flex-direction: column;
     margin: 0;
-    /* margin-bottom: 12vh; */
     margin-bottom: 3vh;
     z-index: 2;
     padding: 0;
-    /* height: 72vh; */
     height: auto;
   }
 
@@ -90,7 +88,7 @@ article {
   }
 }
 
-@media (min-width: 376px) and (max-width: 821px) {
+@media (min-width: 450px) and (max-width: 821px) {
   .offerContainer {
     z-index: 0;
     position: relative;

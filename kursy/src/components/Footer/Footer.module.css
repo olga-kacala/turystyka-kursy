@@ -23,7 +23,7 @@
   height: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .footer {
     width: 100vw;
     height: 12vh;
@@ -38,7 +38,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 821px) {
+@media (min-width: 450px) and (max-width: 821px) {
   .footer {
     width: 100vw;
     height: 19vh;

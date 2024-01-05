@@ -69,8 +69,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
-
+@media (max-width: 450px) {
   .offerContainer {
     margin-bottom: 19vh;
     height: auto;
@@ -106,8 +105,7 @@ body {
   }
 }
 
-@media (min-width: 376px) and (max-width: 821px) {
-  
+@media (min-width: 450px) and (max-width: 821px) {
   .offerContainer {
     margin-bottom: 19vh;
     height: auto;

@@ -42,7 +42,7 @@
   margin-bottom: 5vh;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .contactBox {
     width: auto;
     height: auto;
@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 376px) and (max-width: 821px) {
+@media (min-width: 450px) and (max-width: 821px) {
   .contactBox {
     width: auto;
     height: auto;
@@ -79,6 +79,6 @@
 
   .contactContainer {
     margin: 0;
-    height: auto;
+    /* height: auto; */
   }
 }
