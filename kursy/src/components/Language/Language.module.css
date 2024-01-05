@@ -16,6 +16,7 @@ body {
 .image {
   height: 45vh;
   width: auto;
+  max-width: 70vw;
 }
 
 .offerText {
