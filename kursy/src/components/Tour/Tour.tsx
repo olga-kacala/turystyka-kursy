@@ -35,7 +35,7 @@ export function Tour() {
         </div>
       </div>
       <div className={classes.offerText}>
-        <article>
+        <div className={classes.offerHeader}><article>
           <em>Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest rezultatem ponad
           pięćdziesięcioletniego doświadczenia w prowadzeniu fascynujących
           wycieczek po Krakowie.
@@ -46,7 +46,8 @@ export function Tour() {
           chwile podczas naszych autorskich wycieczek lokalnych i kursów. Odkryj
           Kraków z pasją i doświadczeniem!
         </article>
-
+</div>
+        
         <div className={classes.offerDescription}>
           <h2>Kurs Przewodnika po Krakowie (5. edycja)</h2>
 

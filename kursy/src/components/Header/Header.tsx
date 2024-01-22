@@ -34,7 +34,7 @@ export function Header() {
     <div>
       <header className={classes.header}>
         <div className={classes.topContact}>
-          <p>T: +48 693-739-517 | E: k.krzykalski47@gmail.com</p>
+          <p>T: +48 693 739 517 | E: k.krzykalski47@gmail.com</p>
         </div>
 
         {isMobile && (

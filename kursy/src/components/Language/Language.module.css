@@ -5,7 +5,7 @@ body {
 .offerContainer {
   display: flex;
   flex-direction: column;
-  height: 74vh;
+  height: auto;
   background-image: url("../../../public/Img/annika-gordon-cZISY8ai2iA-unsplash.webp");
   background-size: cover;
   background-position: center;
@@ -14,16 +14,17 @@ body {
 .titleContainer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .offerText {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 8vw;
-  width: 100vw;
+  padding: 3vw;
+  width: 80vw;
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 6vh 0;
+  margin: 2vh 0;
   color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
   font-weight: bolder;
@@ -34,10 +35,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 10vh;
 }
 
-.GER,
-.RUS {
+.LANG {
   display: flex;
   height: 10vh;
   margin: 15px 0;
@@ -53,14 +54,29 @@ body {
 
 .marqueeText {
   white-space: nowrap;
-  animation: marquee 25s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
-.GER:hover,
-.RUS:hover {
+.LANG:hover {
   background-color: rgb(11, 191, 20);
   color: white;
-  transition: 0.5s;
+  transition: 0.5s; 
+}
+
+.bottomOffer {
+  display: flex;
+  flex-direction: column;
+ height: 20vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+  background-color: #333 ;
+  margin: 2vh;
+  padding: 10vh;
+  color: white!important;
+  letter-spacing: 4px;
+  font-size: larger;
 }
 
 @keyframes marquee {
@@ -89,8 +105,7 @@ body {
     margin-top: 6vh;
   }
 
-  .GER,
-  .RUS {
+  .LANG {
     margin: 0;
     margin-bottom: 1vh;
   }
@@ -117,8 +132,7 @@ body {
     width: 100vw;
   }
 
-  .GER,
-  .RUS {
+ .LANG {
     margin: 0;
     margin-bottom: 1vh;
   }

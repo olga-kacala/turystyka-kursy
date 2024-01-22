@@ -28,12 +28,22 @@
   text-align: left;
   overflow-y: auto;
   height: 74vh;
-  margin-right: 2vw;
   margin-bottom: 10vh;
-  padding-top: 2vh;
-  color: rgb(0, 99, 175) !important;
+  padding: 2vh;
+  color: white !important;
   letter-spacing: 4px;
   font-size: larger;
+  
+}
+
+.offerHeader {
+  background-color: rgb(147, 161, 171); 
+  padding: 3vw;
+}
+
+article {
+ justify-content: center;
+ padding: 1vw;
 }
 
 .offerDescription {
@@ -56,10 +66,6 @@ img {
   width: auto;
   position: sticky;
   top: 0;
-}
-
-article {
-  margin: 2vw 2vw 2vw 0;
 }
 
 @media (max-width: 450px) {
