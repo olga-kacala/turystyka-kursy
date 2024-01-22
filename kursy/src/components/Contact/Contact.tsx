@@ -10,7 +10,7 @@ export function Contact() {
         </div>
         <section className={classes.contactSection}>
           <p className={classes.contactBox}>
-            Telefon: <br /> +48 693-739-517
+            Telefon: <br /> (+48) 693 739 517 <br/> 12 307 38 82
           </p>
           <p className={classes.contactBox}>
             Email:
@@ -18,10 +18,19 @@ export function Contact() {
           </p>
           <p className={classes.contactBox}>
             Adres: <br />
-            ul. Zachodnia 10/90 Kraków
+            ul. Zachodnia 10/50 Kraków
           </p>
         </section>
+        <div className={classes.companyName}>
+          <p> Kazimierz Krzykalski Wycieczki Lokalne i Kursy</p>
+          <p>NIP: 9441590188</p>
+        </div>
+
+
       </div>
+
+     
+
     </div>
   );
 }

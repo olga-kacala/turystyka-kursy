@@ -51,6 +51,18 @@
   font-size: 25px;
 }
 
+.companyName {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80vw;
+  justify-content: center;
+  color: rgb(0, 99, 175) !important;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
 p {
   text-align: center;
 }
@@ -66,7 +78,6 @@ p {
   .contactSection {
     flex-direction: column;
     margin: 0;
-    margin-bottom: 12vh;
     width: 100vw;
   }
 
@@ -74,8 +85,13 @@ p {
     margin: 0;
   }
 
-  .contactHeader {
+  .contactHeader,
+  .companyName {
     width: 100vw;
+  }
+
+  .companyName {
+    margin-bottom: 12vh;
   }
 }
 
@@ -90,7 +106,6 @@ p {
   .contactSection {
     flex-direction: column;
     margin: 0;
-    margin-bottom: 19vh;
     width: 100vw;
   }
 
@@ -99,7 +114,12 @@ p {
     height: auto;
   }
 
-  .contactHeader {
+  .contactHeader,
+  .companyName {
     width: 100vw;
+  }
+
+  .companyName {
+    margin-bottom: 19vh;
   }
 }
