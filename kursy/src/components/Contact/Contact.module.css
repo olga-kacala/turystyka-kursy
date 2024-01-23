@@ -37,7 +37,7 @@
   transition: background-color 0.3s, opacity 0.3s, color 0.3s;
 }
 
-.contactHeader {
+.contactHeader, .companyName {
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.8);
@@ -45,19 +45,7 @@
   justify-content: center;
   color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
-  font-weight: bolder;
-  font-size: 25px;
-}
-
-.companyName {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 80vw;
-  justify-content: center;
-  color: rgb(0, 99, 175) !important;
-  letter-spacing: 4px;
-  font-size: 25px;
+  font-size: medium;
 }
 
 p {

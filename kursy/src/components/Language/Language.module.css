@@ -17,7 +17,7 @@ body {
   justify-content: center;
 }
 
-.offerText {
+.offerText, .bottomOffer {
   display: flex;
   align-items: center;
   text-align: center;
@@ -27,8 +27,7 @@ body {
   margin: 2vh 0;
   color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
-  font-weight: bolder;
-  font-size: larger;
+  font-size: medium;
 }
 
 .languageOffer {
@@ -67,17 +66,6 @@ body {
 .bottomOffer {
   display: flex;
   flex-direction: column;
-  height: 20vh;
-  width: 80vw;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 2vh;
-  padding: 10vh;
-  font-size: larger;
-  background-color: white;
-  margin: 2vh 0;
-  color:#333 !important;
 }
 
 @keyframes marquee {
