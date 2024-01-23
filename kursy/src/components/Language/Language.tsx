@@ -30,19 +30,19 @@ export function Language() {
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇬🇧JĘZYK ANGIELSKI - Przeżyj przygodę z językiem angielskim na różnych
+          🇬🇧JĘZYK ANGIELSKI - przeżyj przygodę z językiem angielskim na różnych
             poziomach naszych kursów!
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇩🇪JĘZYK NIEMIECKI - Wzmożony kurs języka niemieckiego, doskonały
+          🇩🇪JĘZYK NIEMIECKI - wzmożony kurs języka niemieckiego, doskonały
             zwłaszcza dla tych, którzy planują podjąć pracę w Niemczech lub
             przygotowują się do matury!
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
-          <div className={classes.marqueeText}>🇷🇺JĘZYK ROSYJSKI - Wzmożony kurs języka rosyjskiego, doskonały
+          <div className={classes.marqueeText}>🇷🇺JĘZYK ROSYJSKI - wzmożony kurs języka rosyjskiego, doskonały
             zwłaszcza dla tych, którzy potrzebują go w relacjach biznesowych lub
             przygotowują się do matury!
           </div>
