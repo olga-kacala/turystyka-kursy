@@ -18,7 +18,7 @@ export function Contact() {
           </p>
           <p className={classes.contactBox}>
             Adres: <br />
-            ul. Zachodnia 10/50 Kraków
+            ul. Zachodnia 10/50<br/>30-350 Kraków
           </p>
         </section>
         <div className={classes.companyName}>

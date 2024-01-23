@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  height: 80vh;
+  height: 74vh;
   width: 100vw;
 }
 
@@ -24,11 +24,10 @@
   font-size: medium;
   font-weight: bold;
   height: 30vh;
-  width: 30vw;
+  width: 31vw;
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 99, 175);
-  margin-bottom: 5vh;
 }
 
 .contactBox:hover {
@@ -41,7 +40,6 @@
 .contactHeader {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5vh;
   background-color: rgba(255, 255, 255, 0.8);
   width: 80vw;
   justify-content: center;
@@ -54,7 +52,6 @@
 .companyName {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5vh;
   background-color: rgba(255, 255, 255, 0.8);
   width: 80vw;
   justify-content: center;
