@@ -111,6 +111,13 @@ body {
     margin-bottom: 1vh;
   }
 
+  .bottomOffer {
+    width: 100vw;
+    padding: 3vw;
+    font-size: smaller;
+    height: auto;
+  }
+
   @keyframes marquee {
     0% {
       transform: translateX(30%);
@@ -136,6 +143,13 @@ body {
   .LANG {
     margin: 0;
     margin-bottom: 1vh;
+  }
+
+  .bottomOffer {
+    width: 100vw;
+    padding: 3vw;
+    font-size: smaller;
+    height: auto;
   }
 
   @keyframes marquee {

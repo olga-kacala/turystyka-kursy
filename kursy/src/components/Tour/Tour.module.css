@@ -78,6 +78,7 @@ h2,h3 {
   .offerContainer {
     z-index: 0;
     position: relative;
+    height: 85vh;
   }
 
   .offerText {
@@ -99,7 +100,6 @@ h2,h3 {
     width: auto;
     margin: 0;
     padding: 9px;
-    font-weight: bold;
   }
 
   article {
@@ -111,12 +111,24 @@ h2,h3 {
   img {
     z-index: 0;
   }
+
+  h2,h3,li {
+    font-size: small;
+    padding-left: 2px;
+    letter-spacing: normal;
+  }
+
+  ul, li {
+    margin: 2px;
+    padding: 6px;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
   .offerContainer {
     z-index: 0;
     position: relative;
+    height: 85vh;
   }
 
   .offerText {
@@ -138,7 +150,6 @@ h2,h3 {
     width: auto;
     margin: 0;
     padding: 9px;
-    font-weight: bold;
   }
 
   article {
@@ -151,4 +162,16 @@ h2,h3 {
     z-index: 0;
     height: 100vh;
   }
+
+  h2,h3,li {
+    font-size: small;
+    padding-left: 2px;
+    letter-spacing: normal;
+  }
+
+  ul, li {
+    margin: 2px;
+    padding-right: 6px;
+  }
+
 }

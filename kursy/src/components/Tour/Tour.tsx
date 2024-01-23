@@ -37,7 +37,7 @@ export function Tour() {
       <div className={classes.offerText}>
         <div className={classes.offerHeader}><article>
           <em>"Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest rezultatem ponad
-          pięćdziesięcioletniego doświadczenia w prowadzeniu fascynujących
+          50 lat doświadczenia w prowadzeniu fascynujących
           wycieczek po Krakowie.
         </article>
         <article>
