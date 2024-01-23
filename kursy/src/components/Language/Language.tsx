@@ -22,69 +22,55 @@ export function Language() {
       </div>
 
       <section className={classes.languageOffer}>
-        <article className={classes.LANG}
-        onClick={scrollToBottomOffer}>
+        <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-            POLISH FOR FOREINERS - preparing for the respective certificate of
+          🇵🇱POLISH FOR FOREIGNERS - preparing for the respective certificate of
             proficiency in the Polish language as a foreign language.
           </div>
         </article>
-        <article className={classes.LANG}
-        onClick={scrollToBottomOffer}>
+        <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-            JĘZYK ANGIELSKI - Przeżyj przygodę z językiem angielskim na różnych
+          🇬🇧JĘZYK ANGIELSKI - Przeżyj przygodę z językiem angielskim na różnych
             poziomach naszych kursów!
           </div>
         </article>
-        <article className={classes.LANG}
-        onClick={scrollToBottomOffer}>
+        <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-            JĘZYK NIEMIECKI - Wzmożony kurs języka niemieckiego, doskonały
+          🇩🇪JĘZYK NIEMIECKI - Wzmożony kurs języka niemieckiego, doskonały
             zwłaszcza dla tych, którzy planują podjąć pracę w Niemczech lub
             przygotowują się do matury!
           </div>
         </article>
-        <article className={classes.LANG}
-        onClick={scrollToBottomOffer}>
-          <div className={classes.marqueeText}>
-            JĘZYK ROSYJSKI - Wzmożony kurs języka rosyjskiego, doskonały
+        <article className={classes.LANG} onClick={scrollToBottomOffer}>
+          <div className={classes.marqueeText}>🇷🇺JĘZYK ROSYJSKI - Wzmożony kurs języka rosyjskiego, doskonały
             zwłaszcza dla tych, którzy potrzebują go w relacjach biznesowych lub
             przygotowują się do matury!
           </div>
         </article>
-        <article className={classes.LANG}
-        onClick={scrollToBottomOffer}>
+        <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-            KURS DOSKONALENIA JĘZYKOWEGO - dla przewodników po Krakowie,
+          🇨🇿🇪🇸🇮🇹🇫🇷KURS DOSKONALENIA JĘZYKOWEGO - dla przewodników po Krakowie,
             przygotowujących się do oprowadzania turystów zagranicznych w języku
             angielskim, czeskim, francuskim, hiszpańskim, niemieckim, rosyjskim
             i włoskim!
           </div>
         </article>
         <div className={classes.titleContainer}>
-        <div className={classes.bottomOffer} ref={bottomOfferRef}>
-        Oferujemy naukę w niewielkich grupach (2-6 osób) prowadzoną przez
-        doświadczonych lektorów-neofilologów z wieloletnim doświadczeniem
-        pedagogicznym. Stosujemy skuteczne metody nauczania, a atmosfera
-        panująca na zajęciach jest przyjazna i sprzyjająca nauce. 
-        <br/>Wypełnij
-        <a
-          href={process.env.PUBLIC_URL + "/Img/ankietaJezyki.pdf"}
-          download="ankietaKursJezykowy.pdf"
-        >
-          ankietę,
-        </a>
-         a przygotujemy dla Ciebie spersonalizowaną ofertę dostosowaną do
-        Twoich indywidualnych potrzeb.
-      </div>
-      </div>
-
-
-       
-
-
+          <div className={classes.bottomOffer} ref={bottomOfferRef}>
+            Oferujemy naukę w niewielkich grupach (2-6 osób) prowadzoną przez
+            doświadczonych lektorów-neofilologów z wieloletnim doświadczeniem
+            pedagogicznym. Stosujemy skuteczne metody nauczania, a atmosfera
+            panująca na zajęciach jest przyjazna i sprzyjająca nauce.
+            <strong>
+              Wypełnij <a
+                href={process.env.PUBLIC_URL + "/Img/ankietaJezyki.pdf"}
+                download="ankietaKursJezykowy.pdf"
+              >ankietę,</a> a przygotujemy dla Ciebie spersonalizowaną ofertę dostosowaną do
+              Twoich potrzeb.
+            </strong>
+          </div>
+        </div>
       </section>
-      
     </div>
   );
 }

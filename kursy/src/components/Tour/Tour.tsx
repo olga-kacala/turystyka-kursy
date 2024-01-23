@@ -36,7 +36,7 @@ export function Tour() {
       </div>
       <div className={classes.offerText}>
         <div className={classes.offerHeader}><article>
-          <em>Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest rezultatem ponad
+          <em>"Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest rezultatem ponad
           pięćdziesięcioletniego doświadczenia w prowadzeniu fascynujących
           wycieczek po Krakowie.
         </article>
@@ -44,7 +44,7 @@ export function Tour() {
           Jesteśmy gotowi poprowadzić Cię przez zakamarki Krakowa, odkrywając
           jego historię i tajemnice. Dołącz do nas, aby przeżyć niezapomniane
           chwile podczas naszych autorskich wycieczek lokalnych i kursów. Odkryj
-          Kraków z pasją i doświadczeniem!
+          Kraków z pasją i doświadczeniem!"
         </article>
 </div>
         
@@ -59,7 +59,7 @@ export function Tour() {
             wykwalifikowanymi przewodnikami.
           </p>
 
-          <h2>Termin i Płatności:</h2>
+          <h3>Termin i Płatności:</h3>
           <ul>
             <li>Kurs trwa 5 miesięcy.</li>
             <li>Czas trwania: 03.02.2024 - 29.06.2024.</li>
@@ -67,7 +67,7 @@ export function Tour() {
             <li>Koszt całkowity kursu wynosi 1500 zł.</li>
           </ul>
 
-          <h2>Program Kursu Obejmuje:</h2>
+          <h3>Program Kursu Obejmuje:</h3>
           <ul>
             <li>168 godzin wykładów teoretycznych i zawodowych.</li>
             <li>42 godziny szkoleń terenowych (trasy miejskie).</li>
@@ -78,7 +78,7 @@ export function Tour() {
             <li>2 praktyki zawodowe (1 słuchana, 1 mówiona).</li>
           </ul>
 
-          <h2>Wykładowcy:</h2>
+          <h3>Wykładowcy:</h3>
 <ul>
     <li>
         <strong>Dr hab. Zygmunt Kruczek, prof. AWF Kraków</strong>
@@ -121,7 +121,7 @@ export function Tour() {
 </ul>
 
 
-          <h2>Warunki Uczestnictwa:</h2>
+          <h3>Warunki Uczestnictwa:</h3>
           <ul>
             <li>Pełnoletność.</li>
             <li>Min. średnie wykształcenie (matura).</li>
@@ -129,7 +129,7 @@ export function Tour() {
             <li>Dobry stan zdrowia.</li>
           </ul>
 
-          <h2>Terminy Zajęć (Soboty):</h2>
+          <h3>Terminy Zajęć (Soboty):</h3>
           <ul>
             <li>Luty: 3, 10, 17, 24.</li>
             <li>Marzec: 2, 9, 16, 23, 30.</li>
@@ -138,11 +138,11 @@ export function Tour() {
             <li>Czerwiec: 1, 8, 15, 22, 29.</li>
           </ul>
 
-          <h2>Miejsce Zajęć:</h2>
+          <h3>Miejsce Zajęć:</h3>
 
           <ul><li>Kraków, ul. Zachodnia 10/50</li></ul>
           
-          <h2>Dodatkowe Informacje:</h2>
+          <h3>Dodatkowe Informacje:</h3>
           <ul>
             <li>
               Organizator zastrzega sobie prawo do dodatkowych terminów na
@@ -151,7 +151,7 @@ export function Tour() {
             <li>Zajęcia odbywają się w godzinach 8:00 - 19:00.</li>
           </ul>
 
-          <h2>Zapisy:</h2>
+          <h3>Zapisy:</h3>
           <ul>
     <li>Osobiście: w biurze firmy (pn.-pt. 10-18) Kraków, ul. Zachodnia 10/50. Dostarczenie wypełnionej <a href={
           process.env.PUBLIC_URL +

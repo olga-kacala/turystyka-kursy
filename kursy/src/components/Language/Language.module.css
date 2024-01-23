@@ -60,23 +60,24 @@ body {
 .LANG:hover {
   background-color: rgb(11, 191, 20);
   color: white;
-  transition: 0.5s; 
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .bottomOffer {
   display: flex;
   flex-direction: column;
- height: 20vh;
-  width: 100vw;
+  height: 20vh;
+  width: 80vw;
   justify-content: center;
   align-items: center;
- text-align: center;
-  background-color: #333 ;
+  text-align: center;
   margin: 2vh;
   padding: 10vh;
-  color: white!important;
-  letter-spacing: 4px;
   font-size: larger;
+  background-color: white;
+  margin: 2vh 0;
+  color:#333 !important;
 }
 
 @keyframes marquee {
@@ -132,7 +133,7 @@ body {
     width: 100vw;
   }
 
- .LANG {
+  .LANG {
     margin: 0;
     margin-bottom: 1vh;
   }

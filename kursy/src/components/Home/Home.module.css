@@ -39,6 +39,7 @@ body {
   text-align: center;
   width: 50vw;
   margin: 20px;
+  border-radius: 3px;
 }
 
 .textOverlay {

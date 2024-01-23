@@ -23,7 +23,7 @@ export function Home() {
         <div className={classes.overlay}>
           <Link className={classes.link} to="Language">
             <p className={classes.textOverlay}>
-              Zapisz się na kurs doskonalący język
+            Zapisz się na kurs doskonalący język: polski (Polish for Foreigners), angielski, niemiecki czy rosyjski
             </p>
           </Link>
         </div>
