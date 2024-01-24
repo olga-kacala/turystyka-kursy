@@ -123,7 +123,7 @@ export function Tour() {
               </ul>
             </li>
             <li>
-              <strong>lek med. Miłosz Białoszewski </strong>
+              <strong>Lek med. Miłosz Białoszewski </strong>
               <ul>
                 <li>Absolwent medycyny na Uniwersytecie Jagiellońskim.</li>
                 <li>Przedstawienie reanimacji.</li>
