@@ -123,6 +123,13 @@ export function Tour() {
               </ul>
             </li>
             <li>
+              <strong>lek med. Miłosz Białoszewski </strong>
+              <ul>
+                <li>Absolwent medycyny na Uniwersytecie Jagiellońskim.</li>
+                <li>Przedstawienie reanimacji.</li>
+              </ul>
+            </li>
+            <li>
               <strong>Dr Kazimierz Krzykalski</strong>
               <ul>
                 <li>
