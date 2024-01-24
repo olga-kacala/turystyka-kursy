@@ -54,10 +54,11 @@ export function Tour() {
 
           <p>
             Serdecznie zapraszamy do udziału w naszym jednosemestralnym kursie
-            przewodnika po Krakowie, który rozpocznie się 3 lutego 2024 r. i
-            potrwa do 29 czerwca 2024 r. To unikalna okazja, aby zdobyć wiedzę
-            teoretyczną, praktyczną i terenową, dzięki której staniecie się
-            wykwalifikowanymi przewodnikami.
+            przewodnika po Krakowie, który rozpocznie się{" "}
+            <strong>3 lutego 2024 r. i potrwa do 29 czerwca 2024 r.</strong> To
+            unikalna okazja, aby zdobyć wiedzę teoretyczną, praktyczną i
+            terenową, dzięki której staniecie się wykwalifikowanymi
+            przewodnikami.
           </p>
 
           <h3>Termin i Płatności:</h3>
@@ -79,54 +80,40 @@ export function Tour() {
             <li>2 praktyki zawodowe (1 słuchana, 1 mówiona).</li>
           </ul>
 
-          <h3>Wykładowcy:</h3>
+          <h3>Wykładowcy i przedmioty:</h3>
           <ul>
             <li>
-              <strong>Dr hab. Zygmunt Kruczek, prof. AWF Kraków</strong>
+              <strong>
+                Dr hab. Zygmunt Kruczek (Geografia Turystyczna Polski)
+              </strong>
               <ul>
-                <li>
-                  Kierownik Zakładu Geografii Turystyki i Ekologii (geografia
-                  turystyczna Polski).
-                </li>
-                <li>Pracownik naukowo-dydaktyczny na AWF Kraków.</li>
-                <li>
-                  Absolwent odpowiedniego kierunku na Uniwersytecie
-                  Jagiellońskim.
-                </li>
-                <li>
-                  Posiada wieloletnią praktykę jako przewodnik miejski po
-                  Krakowie.
-                </li>
+                <li>Kierownik Zakładu Geografii Turystyki i Ekologii.</li>
+                <li>Profesor na AWF Kraków.</li>
+                <li>Absolwent geografii na Uniwersytecie Jagiellońskim.</li>
               </ul>
             </li>
             <li>
-              <strong>Mgr Zuzanna Krzykalska</strong>
+              <strong>
+                Mgr Zuzanna Krzykalska (Prawne Podstawy Przewodnictwa w Polsce)
+              </strong>
               <ul>
-                <li>Absolwentka Uniwersytetu Jagiellońskiego (prawo).</li>
-                <li>
-                  Zawód przewodnika turystycznego zgodnie z obowiązującym
-                  prawodawstwem.
-                </li>
-                <li>Posiada podstawowe prawa i obowiązki przewodnika.</li>
-                <li>Doświadczona przewodniczka z wieloletnim stażem.</li>
+                <li>Absolwentka prawa na Uniwersytetu Jagiellońskiego.</li>
               </ul>
             </li>
             <li>
-              <strong>Mgr Maciej Zapiór</strong>
+              <strong>
+                Mgr Maciej Zapiór (Historia Krakowa na Tle Historii Polski)
+              </strong>
               <ul>
                 <li>Absolwent historii na Uniwersytecie Jagiellońskim.</li>
                 <li>Nauczyciel historii w XX LO w Krakowie.</li>
-                <li>
-                  Długoletni przewodnik po Krakowie, specjalizujący się w
-                  historii Krakowa na tle historii Polski.
-                </li>
+                <li>Długoletni przewodnik po Krakowie.</li>
               </ul>
             </li>
             <li>
-              <strong>Lek med. Miłosz Białoszewski </strong>
+              <strong>Lek med. Miłosz Białoszewski (Reanimacja) </strong>
               <ul>
                 <li>Absolwent medycyny na Uniwersytecie Jagiellońskim.</li>
-                <li>Przedstawienie reanimacji.</li>
               </ul>
             </li>
             <li>
@@ -145,21 +132,27 @@ export function Tour() {
                 </li>
                 <li>Dr filozofii na Uniwersytecie Jagiellońskim (2010).</li>
                 <li>
-                  Prowadzi wykłady teoretyczne m.in. z dziejów kultury polskiej,
-                  sztuki Krakowa, literatury polskiej, Krakowa współczesnego,
-                  topografii Krakowa i strefy podmiejskiej.
+                  Propowadzi na kursie wykłady teoretyczne m.in. z dziejów
+                  kultury polskiej, sztuki Krakowa na tle sztuki polskiej,
+                  Kraków w literaturze polskiej, Kraków współczesny, topografia
+                  Krakowa i strefy podmiejskiej.
                 </li>
                 <li>
-                  Specjalista w zakresie wykładów metodyczno-zawodowych,
-                  metodyki oprowadzania wycieczek miejskich, specyfiki wycieczek
-                  szkolnych, wycieczek osób niepełnosprawnych, szkoleń
-                  terenowych (trasy miejskie) jako instruktor szkoleń
-                  terenowych.
+                  Poprowadzi na kursie wykłady metodyczno-zadowodwe: metodykę
+                  oprowadzania wycieczek miejskich, specyfika oprowadzania grup
+                  dzieci i młodzieży szkoleniej po Krakowie, osoby
+                  niepełnosprawne jako zwiedzające Kraków.
                 </li>
                 <li>
-                  Prowadzi szkolenia muzealne, a także współpracuje z
-                  pracownikami działów oświatowych muzeów, często z ich
-                  kierownikami.
+                  Poprowadzi szkolenia terenowe (trasy miejskie) jako
+                  doświadczony instruktor szkoleń terenowych po Krakowie z
+                  50-letnim doswiadczeniem przewodnika.
+                </li>
+
+                <li>
+                  Organizuje szkolenia muzealne powierzając je doświadczonym
+                  pracownikom działów oświatowych muzeów krakowiskich,
+                  najczęściej kierownikom tych działów.
                 </li>
               </ul>
             </li>
@@ -175,59 +168,86 @@ export function Tour() {
 
           <h3>Terminy Zajęć (Soboty):</h3>
           <ul>
-            <li>Luty: 3, 10, 17, 24.</li>
-            <li>Marzec: 2, 9, 16, 23, 30.</li>
-            <li>Kwiecień: 6, 13, 20, 27.</li>
-            <li>Maj: 11, 18, 25.</li>
-            <li>Czerwiec: 1, 8, 15, 22, 29.</li>
+            <li>Luty 2024: 3, 10, 17, 24.</li>
+            <li>Marzec 2024: 2, 9, 16, 23, 30.</li>
+            <li>Kwiecień 2024: 6, 13, 20, 27.</li>
+            <li>Maj 2024: 11, 18, 25.</li>
+            <li>Czerwiec 2024: 1, 8, 15, 22, 29.</li>
+          </ul>
+
+          <h3>Godziny zajęć:</h3>
+          <ul>
+            <li>8:00 - 14:00 wykłady teoretyczne i zawodowe.</li>
+            <li>14:00 -16:30 przerwa obiadowa.</li>
+            <li>16:30 - 18:00 lub 19:00 szkolenia terenowe.</li>
           </ul>
 
           <h3>Miejsce Zajęć:</h3>
 
           <ul>
-            <li>Kraków, ul. Zachodnia 10/50</li>
+            <li>
+              Wykłady teoretyczne i zawodowe: Kraków, ul. Zachodnia 10/50.
+            </li>
+            <li>
+              Szkolenia terenowe: Kraków - Stare miasto, Kazimierz i Podgórze
+              (trasy miejskie).
+            </li>
+            <li>
+              Szkolenia muzealne: najważniejsze ekspozycje wybranych muzeów
+              krakowskich.
+            </li>
           </ul>
 
           <h3>Dodatkowe Informacje:</h3>
           <ul>
             <li>
-              Organizator zastrzega sobie prawo do dodatkowych terminów na
-              szkolenia muzealne.
+              Organizator zastrzega sobie prawo do kilku dodatkowych terminów na
+              szkolenia muzealne w czasie otwarcia muzeum (może wypaść w dzień
+              powszedni) po uprzednim ustaleniu z wszystkimi uczestniami kursu.
             </li>
-            <li>Zajęcia odbywają się w godzinach 8:00 - 19:00.</li>
           </ul>
 
           <h3>Zapisy:</h3>
           <ul>
             <li>
               Osobiście: w biurze firmy (pn.-pt. 10-18) Kraków, ul. Zachodnia
-              10/50. Dostarczenie wypełnionej{" "}
+              10/50 przez dostarczenie wypełnionej
               <a
                 href={process.env.PUBLIC_URL + "/Img/ankietaPrzewodnik.pdf"}
                 download="ankietaPrzewodnik.pdf"
               >
-                ankiety
-              </a>{" "}
-              wpisowej + kserokopia świadectwa dojrzałości + 2 fotografie{" "}
+                {" "}
+                ankiety{" "}
+              </a>
+              wpisowej (formularz również dostępny w biurze) + kserokopia
+              świadectwa dojrzałości + 2 fotografie.
             </li>
             <li>
-              Email: wypełnioną{" "}
+              Email: wypełnioną
               <a
                 href={process.env.PUBLIC_URL + "/Img/ankietaPrzewodnik.pdf"}
                 download="ankietaPrzewodnik.pdf"
               >
-                ankietę
-              </a>{" "}
+                {" "}
+                ankietę{" "}
+              </a>
               prześlij na k.krzykalski47@gmail.com. Pozostałe dokumenty można
               dostarczyć podczas kursu (kserokopia świadectwa dojrzałości + 2
-              fotografie)
+              fotografie).
             </li>
           </ul>
           <p>
-            Jeśli jesteś bliżej zainteresowany szczegółami kursu, serdecznie
-            zapraszamy do naszego biura w godzinach otwarcia, aby otrzymać pełną
-            dokumentację kursu. Zapisz się już teraz i rozpocznij swoją przygodę
-            z przewodnictwem po Krakowie!
+            Jeśli jesteś bardziej zainteresowany szczegółami kursu, serdecznie
+            zapraszamy do naszego biura w godzinach otwarcia, aby otrzymać
+            bezpłatnie teczkę informacyjną uczestnika kursu zawierającą:
+            szczegółowy wykaz wykładów teoretycznych i zawodowych, z podaniem
+            nazwiska wykładowcy oraz ilości przewidzianych godzin wykładu;
+            dokładny wykaz 21 szkoleń terenowych (trasy miejskie po Starym
+            Mieście, Kazimierzu i Podgórzu); wykaz 11 szkoleń muzealnych z
+            informacją o wystawach stałych i miejscach, w których odbędą się
+            szkolenia i gdzie dodatkowo przewidziane są egzaminy; regulamin
+            kursu. Zapisz się już teraz i rozpocznij swoją przygodę z
+            przewodnictwem po Krakowie!
           </p>
         </div>
       </div>
