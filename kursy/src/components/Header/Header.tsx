@@ -55,7 +55,7 @@ export function Header() {
               <React.Fragment>
                 <Link
                   className={classes.link}
-                  to="Tour"
+                  to="/Tour"
                   key="offer1"
                   onClick={closeMenu}
                 >
@@ -63,7 +63,7 @@ export function Header() {
                 </Link>
                 <Link
                   className={classes.link}
-                  to="Language"
+                  to="/Language"
                   key="offer2"
                   onClick={closeMenu}
                 >
@@ -71,7 +71,7 @@ export function Header() {
                 </Link>
                 <Link
                   className={classes.link}
-                  to="Contact"
+                  to="/Contact"
                   key="contact"
                   onClick={closeMenu}
                 >
@@ -86,13 +86,13 @@ export function Header() {
             <Link className={classes.logo} to="*" key="logo">
               <div onClick={closeMenu}>KRZYKALSKI - KURSY</div>
             </Link>
-            <Link className={classes.link} to="Tour" key="offer1">
+            <Link className={classes.link} to="/Tour" key="offer1">
               <p>Kurs dla przewodników turystycznych</p>
             </Link>
-            <Link className={classes.link} to="Language" key="offer2">
+            <Link className={classes.link} to="/Language" key="offer2">
               <p>Kursy językowe</p>
             </Link>
-            <Link className={classes.link} to="Contact" key="contact">
+            <Link className={classes.link} to="/Contact" key="contact">
               <p>Kontakt</p>
             </Link>
           </div>

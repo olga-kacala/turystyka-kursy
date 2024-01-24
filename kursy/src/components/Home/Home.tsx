@@ -13,7 +13,7 @@ export function Home() {
       />
       <div className={classes.overlayContainer}>
         <div className={classes.overlay}>
-          <Link className={classes.link} to="Tour">
+          <Link className={classes.link} to="/Tour">
             <p className={classes.textOverlay}>
               Dowiedz się wszystkiego o Krakowie i badź najlepszym przewodnikiem
               po mieście
@@ -21,9 +21,10 @@ export function Home() {
           </Link>
         </div>
         <div className={classes.overlay}>
-          <Link className={classes.link} to="Language">
+          <Link className={classes.link} to="/Language">
             <p className={classes.textOverlay}>
-            Zapisz się na kurs doskonalący język: polski (Polish for Foreigners), angielski, niemiecki czy rosyjski
+              Zapisz się na kurs doskonalący język: polski (Polish for
+              Foreigners), angielski, niemiecki czy rosyjski
             </p>
           </Link>
         </div>

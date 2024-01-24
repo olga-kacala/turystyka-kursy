@@ -17,7 +17,8 @@ body {
   justify-content: center;
 }
 
-.offerText, .bottomOffer {
+.offerText,
+.bottomOffer {
   display: flex;
   align-items: center;
   text-align: center;
@@ -105,15 +106,6 @@ body {
     font-size: smaller;
     height: auto;
   }
-
-  @keyframes marquee {
-    0% {
-      transform: translateX(30%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
@@ -138,14 +130,5 @@ body {
     padding: 3vw;
     font-size: smaller;
     height: auto;
-  }
-
-  @keyframes marquee {
-    0% {
-      transform: translateX(30%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
   }
 }

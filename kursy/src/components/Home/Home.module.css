@@ -87,7 +87,6 @@ body {
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
-
   .picContainer {
     position: absolute;
     align-items: center;

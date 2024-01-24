@@ -24,32 +24,33 @@ export function Language() {
       <section className={classes.languageOffer}>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇵🇱POLISH FOR FOREIGNERS - preparing for the respective certificate of
-            proficiency in the Polish language as a foreign language.
+            🇵🇱POLISH FOR FOREIGNERS - preparing for the respective certificate
+            of proficiency in the Polish language as a foreign language.
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇬🇧JĘZYK ANGIELSKI - przeżyj przygodę z językiem angielskim na różnych
-            poziomach naszych kursów!
+            🇬🇧JĘZYK ANGIELSKI - przeżyj przygodę z językiem angielskim na
+            różnych poziomach naszych kursów!
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇩🇪JĘZYK NIEMIECKI - wzmożony kurs języka niemieckiego, doskonały
+            🇩🇪JĘZYK NIEMIECKI - wzmożony kurs języka niemieckiego, doskonały
             zwłaszcza dla tych, którzy planują podjąć pracę w Niemczech lub
             przygotowują się do matury!
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
-          <div className={classes.marqueeText}>🇷🇺JĘZYK ROSYJSKI - wzmożony kurs języka rosyjskiego, doskonały
+          <div className={classes.marqueeText}>
+            🇷🇺JĘZYK ROSYJSKI - wzmożony kurs języka rosyjskiego, doskonały
             zwłaszcza dla tych, którzy potrzebują go w relacjach biznesowych lub
             przygotowują się do matury!
           </div>
         </article>
         <article className={classes.LANG} onClick={scrollToBottomOffer}>
           <div className={classes.marqueeText}>
-          🇨🇿🇪🇸🇮🇹🇫🇷KURS DOSKONALENIA JĘZYKOWEGO - dla przewodników po Krakowie,
+            🇨🇿🇪🇸🇮🇹🇫🇷KURS DOSKONALENIA JĘZYKOWEGO - dla przewodników po Krakowie,
             przygotowujących się do oprowadzania turystów zagranicznych w języku
             angielskim, czeskim, francuskim, hiszpańskim, niemieckim, rosyjskim
             i włoskim!
@@ -62,10 +63,14 @@ export function Language() {
             pedagogicznym. Stosujemy skuteczne metody nauczania, a atmosfera
             panująca na zajęciach jest przyjazna i sprzyjająca nauce.
             <strong>
-              Wypełnij <a
+              Wypełnij{" "}
+              <a
                 href={process.env.PUBLIC_URL + "/Img/ankietaJezyki.pdf"}
                 download="ankietaKursJezykowy.pdf"
-              >ankietę,</a> a przygotujemy dla Ciebie spersonalizowaną ofertę dostosowaną do
+              >
+                ankietę,
+              </a>{" "}
+              a przygotujemy dla Ciebie spersonalizowaną ofertę dostosowaną do
               Twoich potrzeb.
             </strong>
           </div>

@@ -35,19 +35,20 @@ export function Tour() {
         </div>
       </div>
       <div className={classes.offerText}>
-        <div className={classes.offerHeader}><article>
-          <em>"Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest rezultatem ponad
-          50 lat doświadczenia w prowadzeniu fascynujących
-          wycieczek po Krakowie.
-        </article>
-        <article>
-          Jesteśmy gotowi poprowadzić Cię przez zakamarki Krakowa, odkrywając
-          jego historię i tajemnice. Dołącz do nas, aby przeżyć niezapomniane
-          chwile podczas naszych autorskich wycieczek lokalnych i kursów. Odkryj
-          Kraków z pasją i doświadczeniem!"
-        </article>
-</div>
-        
+        <div className={classes.offerHeader}>
+          <article>
+            <em>"Kazimierz Krzykalski Wycieczki Lokalne i Kursy</em> jest
+            rezultatem ponad 50 lat doświadczenia w prowadzeniu fascynujących
+            wycieczek po Krakowie.
+          </article>
+          <article>
+            Jesteśmy gotowi poprowadzić Cię przez zakamarki Krakowa, odkrywając
+            jego historię i tajemnice. Dołącz do nas, aby przeżyć niezapomniane
+            chwile podczas naszych autorskich wycieczek lokalnych i kursów.
+            Odkryj Kraków z pasją i doświadczeniem!"
+          </article>
+        </div>
+
         <div className={classes.offerDescription}>
           <h2>Kurs Przewodnika po Krakowie (5. edycja)</h2>
 
@@ -79,47 +80,83 @@ export function Tour() {
           </ul>
 
           <h3>Wykładowcy:</h3>
-<ul>
-    <li>
-        <strong>Dr hab. Zygmunt Kruczek, prof. AWF Kraków</strong>
-        <ul>
-            <li>Kierownik Zakładu Geografii Turystyki i Ekologii (geografia turystyczna Polski).</li>
-            <li>Pracownik naukowo-dydaktyczny na AWF Kraków.</li>
-            <li>Absolwent odpowiedniego kierunku na Uniwersytecie Jagiellońskim.</li>
-            <li>Posiada wieloletnią praktykę jako przewodnik miejski po Krakowie.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Mgr Zuzanna Krzykalska</strong>
-        <ul>
-            <li>Absolwentka Uniwersytetu Jagiellońskiego (prawo).</li>
-            <li>Zawód przewodnika turystycznego zgodnie z obowiązującym prawodawstwem.</li>
-            <li>Posiada podstawowe prawa i obowiązki przewodnika.</li>
-            <li>Doświadczona przewodniczka z wieloletnim stażem.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Mgr Maciej Zapiór</strong>
-        <ul>
-            <li>Absolwent historii na Uniwersytecie Jagiellońskim.</li>
-            <li>Nauczyciel historii w XX LO w Krakowie.</li>
-            <li>Długoletni przewodnik po Krakowie, specjalizujący się w historii Krakowa na tle historii Polski.</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Dr Kazimierz Krzykalski</strong>
-        <ul>
-            <li>Neofilolog (mgr filologii polskiej UJ 1971, mgr filologii rosyjskiej WSP Kraków 1991).</li>
-            <li>Germanista (zaliczone 10 semestrów germanistyki zaocznej na Uniwersytecie Wrocławskim 1981-1986 bez magisterium).</li>
-            <li>Mgr historii sztuki na Uniwersytecie Jagiellońskim (1978).</li>
-            <li>Dr filozofii na Uniwersytecie Jagiellońskim (2010).</li>
-            <li>Prowadzi wykłady teoretyczne m.in. z dziejów kultury polskiej, sztuki Krakowa, literatury polskiej, Krakowa współczesnego, topografii Krakowa i strefy podmiejskiej.</li>
-            <li>Specjalista w zakresie wykładów metodyczno-zawodowych, metodyki oprowadzania wycieczek miejskich, specyfiki wycieczek szkolnych, wycieczek osób niepełnosprawnych, szkoleń terenowych (trasy miejskie) jako instruktor szkoleń terenowych.</li>
-            <li>Prowadzi szkolenia muzealne, a także współpracuje z pracownikami działów oświatowych muzeów, często z ich kierownikami.</li>
-        </ul>
-    </li>
-</ul>
-
+          <ul>
+            <li>
+              <strong>Dr hab. Zygmunt Kruczek, prof. AWF Kraków</strong>
+              <ul>
+                <li>
+                  Kierownik Zakładu Geografii Turystyki i Ekologii (geografia
+                  turystyczna Polski).
+                </li>
+                <li>Pracownik naukowo-dydaktyczny na AWF Kraków.</li>
+                <li>
+                  Absolwent odpowiedniego kierunku na Uniwersytecie
+                  Jagiellońskim.
+                </li>
+                <li>
+                  Posiada wieloletnią praktykę jako przewodnik miejski po
+                  Krakowie.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Mgr Zuzanna Krzykalska</strong>
+              <ul>
+                <li>Absolwentka Uniwersytetu Jagiellońskiego (prawo).</li>
+                <li>
+                  Zawód przewodnika turystycznego zgodnie z obowiązującym
+                  prawodawstwem.
+                </li>
+                <li>Posiada podstawowe prawa i obowiązki przewodnika.</li>
+                <li>Doświadczona przewodniczka z wieloletnim stażem.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Mgr Maciej Zapiór</strong>
+              <ul>
+                <li>Absolwent historii na Uniwersytecie Jagiellońskim.</li>
+                <li>Nauczyciel historii w XX LO w Krakowie.</li>
+                <li>
+                  Długoletni przewodnik po Krakowie, specjalizujący się w
+                  historii Krakowa na tle historii Polski.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Dr Kazimierz Krzykalski</strong>
+              <ul>
+                <li>
+                  Neofilolog (mgr filologii polskiej UJ 1971, mgr filologii
+                  rosyjskiej WSP Kraków 1991).
+                </li>
+                <li>
+                  Germanista (zaliczone 10 semestrów germanistyki zaocznej na
+                  Uniwersytecie Wrocławskim 1981-1986 bez magisterium).
+                </li>
+                <li>
+                  Mgr historii sztuki na Uniwersytecie Jagiellońskim (1978).
+                </li>
+                <li>Dr filozofii na Uniwersytecie Jagiellońskim (2010).</li>
+                <li>
+                  Prowadzi wykłady teoretyczne m.in. z dziejów kultury polskiej,
+                  sztuki Krakowa, literatury polskiej, Krakowa współczesnego,
+                  topografii Krakowa i strefy podmiejskiej.
+                </li>
+                <li>
+                  Specjalista w zakresie wykładów metodyczno-zawodowych,
+                  metodyki oprowadzania wycieczek miejskich, specyfiki wycieczek
+                  szkolnych, wycieczek osób niepełnosprawnych, szkoleń
+                  terenowych (trasy miejskie) jako instruktor szkoleń
+                  terenowych.
+                </li>
+                <li>
+                  Prowadzi szkolenia muzealne, a także współpracuje z
+                  pracownikami działów oświatowych muzeów, często z ich
+                  kierownikami.
+                </li>
+              </ul>
+            </li>
+          </ul>
 
           <h3>Warunki Uczestnictwa:</h3>
           <ul>
@@ -140,8 +177,10 @@ export function Tour() {
 
           <h3>Miejsce Zajęć:</h3>
 
-          <ul><li>Kraków, ul. Zachodnia 10/50</li></ul>
-          
+          <ul>
+            <li>Kraków, ul. Zachodnia 10/50</li>
+          </ul>
+
           <h3>Dodatkowe Informacje:</h3>
           <ul>
             <li>
@@ -153,19 +192,36 @@ export function Tour() {
 
           <h3>Zapisy:</h3>
           <ul>
-    <li>Osobiście: w biurze firmy (pn.-pt. 10-18) Kraków, ul. Zachodnia 10/50. Dostarczenie wypełnionej <a href={
-          process.env.PUBLIC_URL +
-          "/Img/ankietaPrzewodnik.pdf"
-        } download="ankietaPrzewodnik.pdf">ankiety</a> wpisowej + kserokopia świadectwa dojrzałości + 2 fotografie  </li>
-    <li>Email: wypełnioną <a href={
-          process.env.PUBLIC_URL +
-          "/Img/ankietaPrzewodnik.pdf"
-        } download="ankietaPrzewodnik.pdf">ankietę</a> prześlij na k.krzykalski47@gmail.com. Pozostałe dokumenty można dostarczyć podczas kursu (kserokopia świadectwa dojrzałości + 2 fotografie)</li>
-</ul>
-          <p>Jeśli jesteś bliżej zainteresowany szczegółami kursu, serdecznie
+            <li>
+              Osobiście: w biurze firmy (pn.-pt. 10-18) Kraków, ul. Zachodnia
+              10/50. Dostarczenie wypełnionej{" "}
+              <a
+                href={process.env.PUBLIC_URL + "/Img/ankietaPrzewodnik.pdf"}
+                download="ankietaPrzewodnik.pdf"
+              >
+                ankiety
+              </a>{" "}
+              wpisowej + kserokopia świadectwa dojrzałości + 2 fotografie{" "}
+            </li>
+            <li>
+              Email: wypełnioną{" "}
+              <a
+                href={process.env.PUBLIC_URL + "/Img/ankietaPrzewodnik.pdf"}
+                download="ankietaPrzewodnik.pdf"
+              >
+                ankietę
+              </a>{" "}
+              prześlij na k.krzykalski47@gmail.com. Pozostałe dokumenty można
+              dostarczyć podczas kursu (kserokopia świadectwa dojrzałości + 2
+              fotografie)
+            </li>
+          </ul>
+          <p>
+            Jeśli jesteś bliżej zainteresowany szczegółami kursu, serdecznie
             zapraszamy do naszego biura w godzinach otwarcia, aby otrzymać pełną
             dokumentację kursu. Zapisz się już teraz i rozpocznij swoją przygodę
-            z przewodnictwem po Krakowie!</p>
+            z przewodnictwem po Krakowie!
+          </p>
         </div>
       </div>
     </div>

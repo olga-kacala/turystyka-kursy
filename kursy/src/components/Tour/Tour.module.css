@@ -33,26 +33,25 @@
   color: white !important;
   letter-spacing: 4px;
   font-size: larger;
- 
 }
 
 .offerHeader {
-  background-color: rgb(0, 99, 175); 
+  background-color: rgb(0, 99, 175);
   padding: 3vw;
   border-radius: 6px;
   margin-bottom: 10px;
 }
 
 article {
- justify-content: center;
- padding: 1vw;
+  justify-content: center;
+  padding: 1vw;
 }
 
 .offerDescription {
   flex: 1;
   text-align: left;
   height: 74vh;
-  color:#333 !important;
+  color: #333 !important;
   font-weight: normal;
   font-size: medium;
   letter-spacing: 1px;
@@ -60,7 +59,7 @@ article {
 }
 
 .offerText p {
- text-align: left;
+  text-align: left;
 }
 
 img {
@@ -70,8 +69,9 @@ img {
   top: 0;
 }
 
-h2,h3 {
-  color: rgb(0, 99, 175)
+h2,
+h3 {
+  color: rgb(0, 99, 175);
 }
 
 @media (max-width: 450px) {
@@ -112,13 +112,16 @@ h2,h3 {
     z-index: 0;
   }
 
-  h2,h3,li {
+  h2,
+  h3,
+  li {
     font-size: small;
     padding-left: 2px;
     letter-spacing: normal;
   }
 
-  ul, li {
+  ul,
+  li {
     margin: 2px;
     padding: 6px;
   }
@@ -163,15 +166,17 @@ h2,h3 {
     height: 100vh;
   }
 
-  h2,h3,li {
+  h2,
+  h3,
+  li {
     font-size: small;
     padding-left: 2px;
     letter-spacing: normal;
   }
 
-  ul, li {
+  ul,
+  li {
     margin: 2px;
     padding-right: 6px;
   }
-
 }
