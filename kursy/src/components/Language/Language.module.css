@@ -54,7 +54,8 @@ body {
 
 .marqueeText {
   white-space: nowrap;
-  animation: marquee 60s linear infinite;
+  animation: marquee 50s linear infinite;
+  width: 100%;
 }
 
 .LANG:hover {
@@ -106,6 +107,10 @@ body {
     font-size: smaller;
     height: auto;
   }
+
+  .marqueeText {
+    animation: marquee 30s linear infinite;
+}
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
@@ -131,4 +136,8 @@ body {
     font-size: smaller;
     height: auto;
   }
+
+  .marqueeText {
+    animation: marquee 30s linear infinite;
+}
 }
