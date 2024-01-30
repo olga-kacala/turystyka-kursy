@@ -6,29 +6,36 @@ body {
   display: flex;
   flex-direction: column;
   height: auto;
-  background-image: url("../../../public/Img/annika-gordon-cZISY8ai2iA-unsplash.webp");
-  background-size: cover;
-  background-position: center;
+}
+
+.offerPic {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-height: 80vh;
 }
 
 .titleContainer {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/Img/annika-gordon-cZISY8ai2iA-unsplash.webp");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
 }
 
-.offerText,
-.bottomOffer {
+.offerText {
   display: flex;
   align-items: center;
   text-align: center;
   padding: 3vw;
   width: 80vw;
+  height: 30vh;
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 2vh 0;
   color: rgb(0, 99, 175) !important;
   letter-spacing: 4px;
-  font-size: medium;
+  font-size: larger;
 }
 
 .languageOffer {
@@ -36,47 +43,24 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 10vh;
+  margin: 4vh;
 }
 
 .LANG {
-  display: flex;
-  height: 10vh;
   margin: 15px 0;
-  background-color: rgb(127, 186, 208);
   font-size: 1.3rem;
-  justify-content: flex-start;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  font-weight: bold;
   color: #333;
 }
 
 .marqueeText {
-  white-space: nowrap;
-  animation: marquee 50s linear infinite;
   width: 100%;
+  font-weight: bolder;
+ letter-spacing: 2px;
 }
 
-.LANG:hover {
-  background-color: rgb(11, 191, 20);
-  color: white;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.bottomOffer {
-  display: flex;
-  flex-direction: column;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.courseDescription {
+  font-size: medium;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 450px) {
@@ -100,17 +84,6 @@ body {
     margin: 0;
     margin-bottom: 1vh;
   }
-
-  .bottomOffer {
-    width: 100vw;
-    padding: 3vw;
-    font-size: smaller;
-    height: auto;
-  }
-
-  .marqueeText {
-    animation: marquee 30s linear infinite;
-}
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
@@ -129,15 +102,4 @@ body {
     margin: 0;
     margin-bottom: 1vh;
   }
-
-  .bottomOffer {
-    width: 100vw;
-    padding: 3vw;
-    font-size: smaller;
-    height: auto;
-  }
-
-  .marqueeText {
-    animation: marquee 30s linear infinite;
-}
 }
