@@ -60,6 +60,7 @@ article {
 
 .offerText p {
   text-align: left;
+  padding: 2vh 0;
 }
 
 img {
@@ -72,6 +73,21 @@ img {
 h2,
 h3 {
   color: rgb(0, 99, 175);
+}
+
+.bestOffer {
+  background-color: rgb(0, 99, 175);
+  color: white;
+  padding: 2vw;
+}
+
+.bestOffer li {
+  padding-bottom: 2vh;
+}
+
+.bottomPara {
+  color: rgb(0, 99, 175);
+  letter-spacing: 2px;
 }
 
 @media (max-width: 450px) {
