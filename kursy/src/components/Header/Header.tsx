@@ -34,7 +34,34 @@ export function Header() {
     <div>
       <header className={classes.header}>
         <div className={classes.topContact}>
-          <p>T: +48 693 739 517 | E: k.krzykalski47@gmail.com</p>
+          <p>
+            <img
+              className={classes.icons}
+              title="telephone"
+              alt="telephone"
+              src={process.env.PUBLIC_URL + "/Img/tel.png"}
+            />{" "}
+            +48 693 739 517{" "}
+            <img
+              className={classes.icons}
+              title="mail"
+              alt="mail"
+              src={process.env.PUBLIC_URL + "/Img/mail.png"}
+            />{" "}
+            k.krzykalski47@gmail.com
+            <a
+              href="https://www.facebook.com/profile.php?id=61555837297160&locale=pl_PL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className={classes.icons}
+                title="Facebook"
+                alt="Facebook"
+                src={process.env.PUBLIC_URL + "/Img/fb.png"}
+              />
+            </a>
+          </p>
         </div>
 
         {isMobile && (

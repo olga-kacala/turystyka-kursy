@@ -69,6 +69,11 @@ p {
   margin: 10px 20px;
 }
 
+.icons {
+  height: 25px;
+  margin: 0 10px;
+}
+
 @media (max-width: 450px) {
   body,
   html {
@@ -103,6 +108,11 @@ p {
   p {
     font-size: small;
   }
+
+  .icons {
+    height: 12px;
+    margin: 0 2px;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 821px) {
@@ -136,5 +146,10 @@ p {
   p {
     font-size: small;
     margin: 0;
+  }
+
+  .icons {
+    height: 12px;
+    margin: 0 2px;
   }
 }
