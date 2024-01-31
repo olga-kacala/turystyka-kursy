@@ -55,7 +55,7 @@ export function Tour() {
           <p>
             Serdecznie zapraszamy do udziału w naszym jednosemestralnym kursie
             przewodnika po Krakowie, który rozpocznie się{" "}
-            <strong>3 lutego 2024 r. i potrwa do 29 czerwca 2024 r.</strong> To
+            <strong>10 lutego 2024 r. i potrwa do 29 czerwca 2024 r.</strong> To
             unikalna okazja, aby zdobyć wiedzę teoretyczną, praktyczną i
             terenową, dzięki której staniecie się wykwalifikowanymi
             przewodnikami.
@@ -64,15 +64,15 @@ export function Tour() {
           <h3>Termin i płatności:</h3>
           <ul>
             <li>kurs trwa 5 miesięcy</li>
-            <li>czas trwania: 03.02.2024 - 29.06.2024</li>
+            <li>czas trwania: 10.02.2024 - 29.06.2024</li>
             <li>płatny w 5 dogodnych ratach miesięcznych po 300 zł każda</li>
             <li>koszt całkowity kursu wynosi 1500 zł</li>
           </ul>
 
           <h3>Program kursu obejmuje:</h3>
           <ul>
-            <li>168 godzin wykładów teoretycznych i zawodowych</li>
-            <li>42 godziny szkoleń terenowych (trasy miejskie)</li>
+            <li>160 godzin wykładów teoretycznych i zawodowych</li>
+            <li>40 godziny szkoleń terenowych (trasy miejskie)</li>
             <li>
               22 godziny szkoleń muzealnych w 11 najważniejszych muzeach
               krakowskich z 5 egzaminami
@@ -129,7 +129,7 @@ export function Tour() {
                 </li>
                 <li>dr filozofii na Uniwersytecie Jagiellońskim (2010)</li>
                 <li>
-                  propowadzi na kursie wykłady teoretyczne m.in. z dziejów
+                  poprowadzi na kursie wykłady teoretyczne m.in. z dziejów
                   kultury polskiej, sztuki Krakowa na tle sztuki polskiej,
                   Kraków w literaturze polskiej, Kraków współczesny, topografia
                   Krakowa i strefy podmiejskiej
@@ -168,7 +168,7 @@ export function Tour() {
 
           <h3>Terminy zajęć (soboty):</h3>
           <ul>
-            <li>luty 2024: 3, 10, 17, 24</li>
+            <li>luty 2024: 10, 17, 24</li>
             <li>marzec 2024: 2, 9, 16, 23, 30</li>
             <li>kwiecień 2024: 6, 13, 20, 27</li>
             <li>maj 2024: 11, 18, 25</li>
@@ -264,7 +264,7 @@ export function Tour() {
                 kurs, u konkurencji wynoszącej od 2599 zł do 3300 zł) i w
                 dodatku rozłożonej tylko u nas na 5 dogodnych rat miesięcznych
                 po 300 zł każda płatnych przez cały okres trwania kursu
-                (03.02.2024 - 29.06.2024) tak że jest on dostępny praktycznie
+                (10.02.2024 - 29.06.2024) tak że jest on dostępny praktycznie
                 dla każdej osoby zainteresowanej kursem, nawet słabszej
                 ekonomicznie.
               </li>
@@ -287,7 +287,7 @@ export function Tour() {
                 Krakowa, głównie w XVI i XVII w. (królowa Bona Sforza,
                 Bartolomeo Berreci i jego włoski warsztat kamieniarski, Santi
                 Gucci - nadworny rzeźbiarz i architekt królowej Bony, Tomasso
-                Dolabella z Wenecji, jego warsztat malarski w Krakowie jego
+                Dolabella z Wenecji, jego warsztat malarski w Krakowie i jego
                 wpływ na polskie malarstwo XVII w.): 2 godz. wykładu,
                 <br />
                 c/ a przede wszystkim jako odrębny dział bardzo rozbudowany
@@ -297,11 +297,9 @@ export function Tour() {
                 Żydów krakowskich i cały ten skomplikowany zespół zagadnień,
                 który jest znany ostatnio pod nazwą Holokaustu w sumie 20 godz
                 wykładu, a to: 1. Judaizm, jego geneza i rozwój, główne kierunki
-                i święta: 2 godz. wykładu , 2. Dzieje Żydów w Krakowie i na
+                i święta: 2 godz. wykładu, 2. Dzieje Żydów w Krakowie i na
                 Kazimierzu na tle historii Żydów w Polsce: 14 godz. wykładu.
-              </li>
-              <li>
-                Kultura i sztuka Żydów krakowskich wraz z wyjątkowym wpływem
+                3. Kultura i sztuka Żydów krakowskich wraz z wyjątkowym wpływem
                 Żydów polskich i osób pochodzenia żydowskiego na kulturę i
                 literaturę polską, zwłaszcza od XIX w.: Leopold Staff, Julian
                 Tuwim, Bolesław Leśmian, Anatol Stern, Aleksander Wat, Janusz
@@ -312,7 +310,8 @@ export function Tour() {
                 firma księgarsko-wydawnicza Gebettner i Wolff z bardzo licznymi
                 filiami w wielu miastach polskich i działająca jeszcze po
                 wojnie,czy wreszcie bardzo zasłużona dla kultury i nauki
-                polskiej krakowska rodzina Estreicherów: 4 godz. wykładu.
+                polskiej krakowska rodzina Estreicherów, a także zasłużony dla sztukii Krakowa wielki reformator teatru awangardowego Tadeusz Kantor: 4 godz. wykładu.
+                <br/>
                 Wszystko to wprowadziliśmy dodatkowo jako odrębny przedmiot
                 wykładu, zachowując i rozszerzając jednocześnie, tak jak i na
                 innych tego typu kursach u konkurencji wydatnie ilość i
@@ -322,8 +321,8 @@ export function Tour() {
                 Schindlera, Emalia Oskara Schindlera - fabryka - muzeum z czasów
                 II wojny i okupacji, Obóz Pracy Przymusowej w
                 Krakowie-Płaszowie), wszystko to uwzględniając ciągle rosnące
-                <strong>
-                  niezwykłe zainteresowanie problematyką żydowską, a szczególnie
+                 <strong> 
+                   niezwykłe zainteresowanie problematyką żydowską, a szczególnie
                   zagadnieniem Holokaustu i ludobójstwa
                 </strong>
                 , bo to są tematy bardzo rozreklamowane i bardzo modne ostatnio,
@@ -361,16 +360,16 @@ export function Tour() {
                 Oskara Schindlera
                 <br />
                 d/ Szlakiem "Listy Schindlera" w Krakowie.
-                <br />Z drugiej strony zapoznanie się naszych kursantów z
+                <br/>Z drugiej strony zapoznanie się naszych kursantów z
                 najbardziej popularnymi trasami miejskimi krakowskimi w
                 najbardziej znanych ma zachęcić naszych kursantow do dołożenia
                 starań, aby oprowadzać też turystów zagranicznych po Krakowie bo
                 warto, co prawda bardzo znacznie zmniejszyła się ogólnie liczba
                 turystów też w Krakowie, a to głownie przez pandemię i ostatnio
                 też przez wojnę na Ukrainie, przez co staliśmy się krajem
-                przyfrontowym, ale zarówno jedno, jak i, drugie nie będzie trwać
+                przyfrontowym, ale zarówno jedno jak i drugie, nie będzie trwać
                 wiecznie i należy się spodziewać, że w końcu ożywi się też ruch
-                turystyczny.
+                turystyczny także w Krakowie.
               </li>
             </ol>
           </div>
@@ -381,10 +380,10 @@ export function Tour() {
             bezpłatnie teczkę informacyjną uczestnika kursu zawierającą:
             szczegółowy wykaz wykładów teoretycznych i zawodowych, z podaniem
             nazwiska wykładowcy oraz ilości przewidzianych godzin wykładu;
-            dokładny wykaz 21 szkoleń terenowych (trasy miejskie po Starym
-            Mieście, Kazimierzu i Podgórzu); wykaz 11 szkoleń muzealnych z
+            dokładny wykaz 20 szkoleń terenowych (trasy miejskie po Starym
+            Mieście, Kazimierzu i Podgórzu), wykaz 11 szkoleń muzealnych z
             informacją o wystawach stałych i miejscach, w których odbędą się
-            szkolenia i gdzie dodatkowo przewidziane są egzaminy; regulamin
+            szkolenia i gdzie dodatkowo przewidziane są egzaminy i regulamin
             kursu. Zapisz się już teraz i rozpocznij swoją przygodę z
             przewodnictwem po Krakowie!
           </p>
