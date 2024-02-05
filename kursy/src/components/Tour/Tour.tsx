@@ -88,7 +88,7 @@ export function Tour() {
                 Polski)
               </strong>
               <ul>
-                <li>kierownik Zakładu Geografii Turystyki i Ekologii</li>
+                <li>Kierownik Zakładu Geografii Turystyki i Ekologii</li>
               </ul>
             </li>
             <li>
@@ -264,9 +264,7 @@ export function Tour() {
                 kurs, u konkurencji wynoszącej od 2599 zł do 3300 zł) i w
                 dodatku rozłożonej tylko u nas na 5 dogodnych rat miesięcznych
                 po 300 zł każda płatnych przez cały okres trwania kursu
-                (10.02.2024 - 29.06.2024) tak że jest on dostępny praktycznie
-                dla każdej osoby zainteresowanej kursem, nawet słabszej
-                ekonomicznie.
+                (10.02.2024 - 29.06.2024). Po ukończeniu kursu, istnieje możliwość przystąpienia do egzaminu organizowanego przez Federację Stowarzyszeń Przewodnickich w Krakowie, który odbędzie się 1, 2 i 3 lipca 2024 roku w godzinach od 08:00 do 14:00. Egzamin składać się będzie z trzech komisji egzaminacyjnych, z których każda będzie oceniać jeden z następujących tematów: 1. Stare Miasto, 2. Wawel, 3. Kazimierz wraz z Podgórzem. Aby zdać egzamin, konieczne jest otrzymanie co najmniej oceny dostatecznej z każdego z wymienionych tematów przed każdą odrębną komisją. Warunkiem dopuszczenia do egzaminu jest dokonanie opłaty egzaminacyjnej w wysokości 300 zł na konto Federacji Stowarzyszeń w Krakowie.
               </li>
               <li>
                 Rozszerzenie w jednym, ale bardzo istotnym ostatnio punkcie
