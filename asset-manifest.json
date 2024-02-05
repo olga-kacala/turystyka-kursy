@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.0bdd89fb.css",
-    "main.js": "/static/js/main.af7153d8.js",
+    "main.js": "/static/js/main.8cedbc6e.js",
     "static/media/pavan-trikutam-71CjSSB83Wo-unsplash.webp": "/static/media/pavan-trikutam-71CjSSB83Wo-unsplash.b6e8556f2a58962cff2f.webp",
     "static/media/annika-gordon-cZISY8ai2iA-unsplash.webp": "/static/media/annika-gordon-cZISY8ai2iA-unsplash.713550d7e1bba2db4e4a.webp",
     "index.html": "/index.html",
     "main.0bdd89fb.css.map": "/static/css/main.0bdd89fb.css.map",
-    "main.af7153d8.js.map": "/static/js/main.af7153d8.js.map"
+    "main.8cedbc6e.js.map": "/static/js/main.8cedbc6e.js.map"
   },
   "entrypoints": [
     "static/css/main.0bdd89fb.css",
-    "static/js/main.af7153d8.js"
+    "static/js/main.8cedbc6e.js"
   ]
 }
