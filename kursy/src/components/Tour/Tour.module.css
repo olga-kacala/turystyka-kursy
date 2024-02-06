@@ -31,7 +31,7 @@
 .offerText {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex: 1;
   text-align: left;
   overflow-y: auto;
@@ -92,7 +92,8 @@ img {
   top: 0;
 }
 
-h1, h2,
+h1,
+h2,
 h3 {
   color: rgb(0, 99, 175);
   margin-bottom: 2vh;
@@ -146,8 +147,8 @@ li > ul {
     padding: 0;
     height: auto;
     background-image: url("../../../public/Img/image2.webp");
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
   }
 
   .carousel {
@@ -165,7 +166,8 @@ li > ul {
     padding: 0;
   }
 
-  article, .references {
+  article,
+  .references {
     margin: 3vw;
     text-align: center;
     font-size: small;
@@ -209,8 +211,8 @@ li > ul {
     padding: 0;
     height: auto;
     background-image: url("../../../public/Img/image2.webp");
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
   }
 
   .carousel {
@@ -228,7 +230,8 @@ li > ul {
     padding: 9px;
   }
 
-  article, .references {
+  article,
+  .references {
     margin: 3vw;
     text-align: center;
     font-size: small;

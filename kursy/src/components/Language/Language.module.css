@@ -56,8 +56,8 @@ body {
 .marqueeText {
   width: 100%;
   font-weight: bolder;
- letter-spacing: 2px;
- margin-bottom: 2vh;
+  letter-spacing: 2px;
+  margin-bottom: 2vh;
 }
 
 .courseDescription {

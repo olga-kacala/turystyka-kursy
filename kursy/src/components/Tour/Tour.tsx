@@ -53,7 +53,7 @@ export function Tour() {
           <blockquote className={classes.references}>
             "Polecam kurs przewodnicki. Pan Kazimierz ma ogromną wiedzę i
             doświadczenie. Znakomity przewodnik po Krakowie i to w kilku
-            językach: polskim, rosyjskim, niemieckim i angielskim"
+            językach: polskim, rosyjskim, niemieckim i angielskim."
             <div className={classes.referencesSignature}>
               {" "}
               Monika Stawiarska, Malopolskie Centrum Informacji Tutystycznej
