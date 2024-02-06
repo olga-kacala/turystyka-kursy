@@ -56,7 +56,7 @@ export function Tour() {
             językach: polskim, rosyjskim, niemieckim i angielskim."
             <div className={classes.referencesSignature}>
               {" "}
-              Monika Stawiarska, Malopolskie Centrum Informacji Tutystycznej
+              Monika S., Malopolskie Centrum Informacji Tutystycznej
             </div>
           </blockquote>
         </div>
