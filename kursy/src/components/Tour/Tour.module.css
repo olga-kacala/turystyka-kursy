@@ -1,6 +1,11 @@
 .offerContainer {
   display: flex;
+  flex-direction: column;
   height: 74vh;
+}
+
+.topContainer {
+  display: flex;
 }
 
 .carousel {
@@ -47,6 +52,20 @@ article {
   padding: 1vw;
 }
 
+.references {
+  font-style: italic;
+  color: #333;
+  border: 0.5px solid gray;
+  padding: 3vw;
+  border-radius: 6px;
+}
+
+.referencesSignature {
+  padding-top: 2vh;
+  font-style: normal;
+  color: #333;
+}
+
 .offerDescription {
   flex: 1;
   text-align: left;
@@ -56,6 +75,7 @@ article {
   font-size: medium;
   letter-spacing: 1px;
   width: auto;
+  margin: 2vw;
 }
 
 .offerText p {
@@ -70,15 +90,19 @@ img {
   top: 0;
 }
 
-h2,
+h1, h2,
 h3 {
   color: rgb(0, 99, 175);
+  margin-bottom: 2vh;
+  font-weight: bolder;
 }
 
 .bestOffer {
   background-color: rgb(0, 99, 175);
+  border-radius: 6px;
   color: white;
-  padding: 2vw;
+  padding: 4vw;
+  margin: 2vw;
 }
 
 .bestOffer li {
@@ -88,6 +112,22 @@ h3 {
 .bottomPara {
   color: rgb(0, 99, 175);
   letter-spacing: 2px;
+  padding: 4vh 4vh 18vh 4vh;
+  border: 0.5px solid gray;
+  border-radius: 6px;
+  margin: 2vw;
+}
+
+ul {
+  border: 1px solid grey;
+  padding: 2vw;
+  margin: 2vw;
+  border-radius: 6px;
+}
+
+li > ul {
+  border: none;
+  margin: 0;
 }
 
 @media (max-width: 450px) {
