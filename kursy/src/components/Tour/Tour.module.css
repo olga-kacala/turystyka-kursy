@@ -29,11 +29,13 @@
 }
 
 .offerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   flex: 1;
   text-align: left;
   overflow-y: auto;
   height: 74vh;
-  margin-bottom: 10vh;
   padding: 2vh;
   color: white !important;
   letter-spacing: 4px;
@@ -75,7 +77,7 @@ article {
   font-size: medium;
   letter-spacing: 1px;
   width: auto;
-  margin: 2vw;
+  margin: 3vw;
 }
 
 .offerText p {
@@ -112,10 +114,9 @@ h3 {
 .bottomPara {
   color: rgb(0, 99, 175);
   letter-spacing: 2px;
-  padding: 4vh 4vh 18vh 4vh;
-  border: 0.5px solid gray;
-  border-radius: 6px;
+  padding: 4vh 4vh 19vh 4vh;
   margin: 2vw;
+  font-weight: bold;
 }
 
 ul {
@@ -141,15 +142,16 @@ li > ul {
     display: flex;
     flex-direction: column;
     margin: 0;
-    margin-bottom: 12vh;
     z-index: 2;
     padding: 0;
     height: auto;
+    background-image: url("../../../public/Img/image2.webp");
+  background-size: cover;
+  background-position: center;
   }
 
   .carousel {
-    width: 100vw;
-    z-index: 1;
+    display: none;
   }
 
   .offerText p {
@@ -158,10 +160,19 @@ li > ul {
     padding: 9px;
   }
 
-  article {
+  .offerHeader {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  article, .references {
     margin: 3vw;
     text-align: center;
     font-size: small;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 1vw;
+    border-radius: 4px;
   }
 
   img {
@@ -194,15 +205,21 @@ li > ul {
     display: flex;
     flex-direction: column;
     margin: 0;
-    margin-bottom: 19vh;
     z-index: 2;
     padding: 0;
     height: auto;
+    background-image: url("../../../public/Img/image2.webp");
+  background-size: cover;
+  background-position: center;
   }
 
   .carousel {
-    width: 100vw;
-    z-index: 1;
+    display: none;
+  }
+
+  .offerHeader {
+    background-color: transparent;
+    padding: 0;
   }
 
   .offerText p {
@@ -211,10 +228,14 @@ li > ul {
     padding: 9px;
   }
 
-  article {
+  article, .references {
     margin: 3vw;
     text-align: center;
     font-size: small;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 1vw;
+    border-radius: 4px;
   }
 
   img {
